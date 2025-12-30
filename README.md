@@ -33,6 +33,10 @@ Form lossy IDR.
 Doesn't form IDR. Purely message passing.
 ### BERT
 We should take caution when interpreting BERT's role in the theory because BERT is the an special case where it contracts GPT both IDR representation and message passing into one single model.
+To demonstrate how BERT fits into the theory, we could conduct the following thought experiment:
+1. BERT with mask sampling equivalent or even better than causal mask.
+2. Mask only last token.
+
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
