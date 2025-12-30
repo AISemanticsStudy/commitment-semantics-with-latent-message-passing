@@ -60,6 +60,9 @@ To fully understand this theory, you must have a solid understanding of these to
 - What is commitment semantics in databases and distributed systems.
 - How to use logical clocks to reason about distributed systems.
 
+Lacking any of these knowledge could make it hard to follow some of the arguments and explanations in the theory,
+but it is also possible to learn them along the way by asking for help from ChatGPT and other AI assistants.
+
 ## LOC
 - the core concepts and definitions
 - revisiting existing AI paradigms and models from the theory's perspective
