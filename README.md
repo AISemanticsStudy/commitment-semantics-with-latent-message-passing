@@ -67,6 +67,12 @@ Mutation should not just be emergent useful behavior for the life form, but also
 ### Difference between stimulant and psychedelic drugs
 With this theory, we could understand how stimulant and psychedelic drugs affect human brain differently by studying how do they effect IDR representation and message passing mechanisms.
 
+### Potential applications in AI system design
+We the listing parallel of phenomenons and more potential applications on-going research might discover of the theory, we can make a strong call back to the theory
+that the semantics of intelligence and learning.
+- intelligence: IDR, strict, reliable, consistent
+- learning: general, flexible, adaptable, evolving. human brain, GPT and nature selection uses different mechanisms to achieve this.
+
 ## Repository Structure
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
 - `blogs/`: Informal blog posts discussing various aspects of commitment semantics and latent message passing.
