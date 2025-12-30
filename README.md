@@ -57,7 +57,7 @@ To **fully** understand this theory, you **must** have a solid or a least none-i
 Lacking **any** of these knowledge could make it hard to follow some of the arguments and explanations in the theory,
 but it is also possible to learn them along the way by asking for help from ChatGPT-like AI assistants or a human expert on these topics.
 In the words, this theory is not a theory serving as a pillar to learn these topics or AI from scratch,
-rather than a theory that unifies and connect all these topics and make AI a coherent whole that is definable and with research objects.
+but a theory that unifies and connect all these topics and make AI a coherent whole that is definable and with research objects.
 
 We have confidence that once you understand these topics, you will be able to grasp the core concepts of the theory quickly
 and find the theory resonate so well with all of them in a beautiful way.
