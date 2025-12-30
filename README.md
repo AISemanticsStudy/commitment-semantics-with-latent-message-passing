@@ -40,8 +40,8 @@ As long as the linkages maintain a set of IDRs
 
 One long standing question in neuroscience is how the brain maintains stable memory and intelligent behavior over sparse neural linkages (synapses) over long periods of time, despite the fact that individual synapses are constantly being formed and pruned. The message passing part of the theory provides a solid explanation for this phenomenon. Because the neural linkage purely serves as a communication channel for passing latent messages, the exact structure and strength of individual synapses are not critical for maintaining the overall functionality of the brain. As long as there are enough synapses to facilitate the necessary message passing, the brain can continue to function effectively, even if individual synapses are lost or weakened over time.
 
-### Human brain has area(s) to store IDR
-
+### Human brain's IDR
+If you are a neuroscientist, you may find it interesting to think about what the IDR representation in human brain could be. And please feel free to share your thoughts and findings with us!
 
 ### Sleep and dreaming
 Under the theory, sleep could be understood as a process equivalent to a GPT conducting offline training to update its IDR representation.
