@@ -26,10 +26,10 @@ These topics are not strictly required, but they will help readers build natural
 
 
 ## hypothesis and cross-discipline observations derived from the theory
-### origin of animal
-support the hypothesis animal with brain could evolve from a fusion of two different single-cell organisms.
-One organism
-
+### origin of animal brain
+The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
+With one life providing the IDR representation and the other life providing the message passing mechanism, the fused life form could gain significant advantages in adapting to complex environments, leading to the evolution of more sophisticated brains.
+By contrast, it is much easier for natural selection to evolve one single mechanism, either IDR representation or message passing, but not both.
 
 ### There is no back-propagation in human brain
 The theory suggests that the human brain definitely does not need back-propagation as a learning mechanism.
