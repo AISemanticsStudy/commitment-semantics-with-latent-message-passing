@@ -15,6 +15,7 @@ Once the theory is more established and widely accepted, we plan to write formal
 To fully understand the concepts and ideas presented, we encourage readers to have a minimal understanding of the following topics.
 These topics are not strictly required or fully covered by the theory, but they will help readers build natural intuition.
 
+- neural networks, GPT
 - WAL (Write Ahead Log)
 - Logical Clocks and Consensus algorithms (e.g., Paxos, Raft)
 - CRDTs (Conflict-free Replicated Data Types)
