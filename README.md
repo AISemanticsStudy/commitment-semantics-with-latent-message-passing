@@ -77,7 +77,7 @@ how the model learn and how the model run.
 While GPT is the only model he has seen so far that breaks this convention.
 The KVCache stands out as a flashy outlier.
 The GPT was designed to has a "next token prediction" core capability,
-while what it produce it "KVCache" capability it has during inference
+while what it comes with "KVCache" capability it has during inference
 feels more like a cliched word "emerging".
 
 
