@@ -25,6 +25,12 @@ These topics are not strictly required or fully covered by the theory, but they 
 - revisiting existing AI paradigms and models from the theory's perspective
 - hypothesis and cross-discipline observations derived from the theory
 
+## Residual
+## Checkpoint technique
+The message passing semantic ensures the recomputation of the forward passing will always yield the same result as long as the IDR representation is not changed.
+Although it is obvious and trivial to prove this property from mathematical perspective, it has significant practical implications in engineering that here is great room to
+explore by introducing compression techniques or other practices widely used in distributed systems and databases.
+
 ## revisiting existing AI paradigms and models from the theory's perspective
 
 ### RNN
