@@ -34,10 +34,10 @@ These topics are not strictly required or fully covered by the theory, but they 
 
 ## Bottleneck and level of features
 If neural networks is of message passing semantics. We can safely use information bottleneck theory to analyze the level of features being learned at different layers of the network.
-The usefulness of reusing features at different layers support the durability of network being latent objects and forming connections between latent objects.
+
 
 ## Feature map reusing and transfer learning
-
+The usefulness of reusing features maps support the durability of network being latent objects and forming connections between latent objects.
 
 ## Checkpoint technique
 The message passing semantic ensures the recomputation of the forward passing will always yield the same result as long as the IDR representation is not changed.
