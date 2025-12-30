@@ -70,12 +70,11 @@ and find the theory resonate so well with all of them in a beautiful way.
 ### The inspiration: KVCache in GPT as a strange being
 The original author(Shenghang) has been working on build AI training-inference systems for years, since the ResNet era.
 In 2023, his team went through a major reorganization and pivoted to focus on building efficient GPT inference systems.
-Since then, he has been constantly boggled by the strange being of GPT's KVCache mechanism.
+And after a while some of the team's engineering efforts shifted to optimize GPT inference with KVCache,
+since that point, he has been constantly boggled by the strange being of GPT's KVCache mechanism.
 In the all the AI models he has worked on before, the inductive bias introduce by the model designers always align with
 how the model learn and how the model run.
-While GPT is the only model he has seen so far that breaks this convention. To be more specific,
-the way GPT is trained and the way GPT run during inference are two completely different mechanisms (offset 1 token but full length vs. next token only).
-And when the team's engineering efforts finally shifted to optimize GPT inference with KVCache,
+While GPT is the only model he has seen so far that breaks this convention.
 the KVCache stands out as a even flashy outlier.
 The GPT was designed to has a "next token prediction" core capability,
 while what it produce it "KVCache" capability it has during inference
