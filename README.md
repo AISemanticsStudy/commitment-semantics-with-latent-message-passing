@@ -174,6 +174,8 @@ So here we find GPT to be such an exceptional yet inclusive rare being, is all a
 - a probabilistic sampling system, aka, random number generator
 - a actor system, aka, message passing system
 
+GPT is so special that it defies all odds yet doesn't contract any.
+
 ## hypothesis and cross-discipline observations derived from the theory
 Please note that the role of the theory in other disciplines is still very preliminary and speculative.
 We would advise you to use it as a guideline to prune and examine your research thesis
