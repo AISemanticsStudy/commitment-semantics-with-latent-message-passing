@@ -25,8 +25,8 @@ The problem is that those explanations often fail to provide a unified understan
 The ideal explanation should be able to define AI using well-formed semantics as its micro-foundation,
 and derive the dynamics of as a macro landscape to overview how an AI model works and why it could work.
 
-What is more important, the explanation should be compatible with all existing well-established findings in life sciences, cognitive sciences, neuroscience, and computer science.
-If the explanation could not align with these well-established findings, there should be a very falsifiable prediction that could be tested to validate or invalidate the explanation rather than
+What is more important, the explanation should be compatible with **all** existing well-established findings in life sciences, cognitive sciences, neuroscience, and computer science.
+If the explanation could not align with these well-established findings, there should be a very **falsifiable** prediction that could be tested to validate or invalidate the explanation rather than
 using the explanation to cherry-pick some findings and discard others.
 
 I have to borrow some trust from you here.
@@ -56,6 +56,8 @@ To fully understand this theory, you **must** have a solid or a least none-intro
 
 Lacking **any** of these knowledge could make it hard to follow some of the arguments and explanations in the theory,
 but it is also possible to learn them along the way by asking for help from ChatGPT-like AI assistants or a human expert on these topics.
+In the words, this theory is not a theory serving as a pillar to learn these topics or AI from scratch,
+rather than a theory that unifies and connect all these topics and make AI a coherent whole that is definable and with research objects.
 
 We have confidence that once you understand these topics, you will be able to grasp the core concepts of the theory quickly
 and find the theory resonate so well with all of them in a beautiful way.
@@ -67,8 +69,59 @@ and find the theory resonate so well with all of them in a beautiful way.
 
 ## The core concepts and definitions
 
+### The inspiration: KVCache in GPT as a strange being
+The original author(Shenghang) has been working on build AI training-inference systems for years, since the ResNet era.
+In 2023, his team went through a major reorganization and pivoted to focus on building efficient GPT inference systems.
+And after a while some of the team's engineering efforts shifted to optimize GPT inference with KVCache,
+since that point, he has been constantly boggled by the strange being of GPT's KVCache mechanism.
+In the all the AI models he has worked on before, the inductive bias introduce by the model designers always align with
+how the model learn and how the model run.
+While GPT is the only model he has seen so far that breaks this convention.
+The KVCache stands out as a flashy outlier.
+The GPT was designed to has a "next token prediction" core capability,
+while what it comes with "KVCache" capability it has during inference
+feels more like a cliched word "emerging".
+
+## What is it exactly about KVCache that makes it so special?
+
+
+## Let's define IDR: Idempotent Discrete Record
+1. Idempotent
+
+- In computer science, an operation is idempotent if performing it multiple times has the same effect as performing it once (e.g., setting a light switch to "ON" is idempotent; toggling it is not).
+Applied to an IDR, this means the record is stable and consistent. Once formed, applying the same learning operation (message) to it doesn't change its fundamental state. It represents a reliable, committed piece of knowledge or state.
+
+2. Discrete
+
+- The record is a separate, distinct unit. It's not a continuous gradient but a defined entity that can be stored, referenced, and passed around.
+
+3. Record
+
+- This is the data structure that holds the intelligence. In the context of AI models, the theory strongly suggests that the Key-Value (KV) Cache in a model like GPT is the physical manifestation of an IDR.
+- The KV Cache stores computed representations of previous tokens in a sequence. According to the theory, this cache isn't just an optimization trick; it's the model's intelligent state—the idempotent, discrete record of what it has "understood" so far.
+
+### Quick validation, human text and DNA as IDR
+To quickly validate the definition of IDR, we could look at two well-known examples of information
+storage and transmission in nature: human text and DNA.
+Both human text and DNA exhibit the properties of being idempotent, discrete, and record-like.
+- Human text: Once written, a piece of text remains unchanged unless explicitly edited. Copying or transmitting the text does not alter its content, making it idempotent. Each character or word is a discrete unit of information, and the entire text serves as a record of knowledge or communication.
+- DNA: The genetic code in DNA is stable and can be replicated without change, demonstrating idempotency. The sequence of nucleotides (A, T, C, G) is discrete, and the entire DNA strand serves as a record of an organism's genetic information.
+These examples support the idea that IDR is a fundamental concept in both artificial and natural systems of intelligence.
+
+A trilling revelation:
+The most unique emerging property of GPT is it has or support a mechanism recognizable and definable works identical like
+two things we take for granted to form intelligence in human world:
+- human text
+- DNA
+
+### IDR vs. CRDT
+please refer to [this file](ird-formalization/crdt.md) for the full comparison.
+### Logical clocks view of IDR
+please refer to [this file](ird-formalization/logical-clocks.md) for the full formalization.
+### IDR as WAL and its implications
+please refer to [this file](ird-formalization/wal.md) for how to identify IDR as WAL.
 ### Mathematical Formalization of IDR Properties
-please refer to [this file](math-idr.md) for the full formalization. It is generated by DeepSeek. Further human review and polishing is welcomed.
+please refer to [this file](ird-formalization/math.md) for the full formalization.
 
 ### Commitment semantic is disguised as sampling
 One confusing aspect of modern AI models like GPT is the presence of both randomness and determinism in their behavior.
@@ -78,22 +131,27 @@ The strange mixture of behaviors hold people from studying it purely as a probab
 But once the concept of IDR is formalized, you would find GPT is actually a commitment semantic system disguised as a probabilistic sampling system.
 It perfectly mirror the collapse of wave function in quantum mechanics although there is no proof to support AI is quantum(for now).
 
+### How about learning?
+After defining IDR as the core concept of intelligence representation, the next natural question is: How does learning happen? If IDRs are stable records, how are they formed and updated?
+
+There are so many ways to answer this question if you don't have a well-defined concept of intelligence unit.
+But once we have IDR defined, the answer becomes clear and straightforward:
+**Learning is message passing that leads to the formation of new IDRs.**
 
 ## Object-transfer duality of latent message passing
 
 ## revisiting existing AI paradigms and models from the theory's perspective
 
+### Residual
 
-## Residual
-
-## Bottleneck and level of features
+### Bottleneck and level of features
 If neural networks is of message passing semantics. We can safely use information bottleneck theory to analyze the level of features being learned at different layers of the network.
 
 
-## Feature map reusing and transfer learning
+### Feature map reusing and transfer learning
 The usefulness of reusing features maps support the durability of network being latent objects and forming connections between latent objects.
 
-## Checkpoint technique
+### Checkpoint technique
 The message passing semantic ensures the recomputation of the forward passing will always yield the same result as long as the IDR representation is not changed.
 Although it is obvious and trivial to prove this property from mathematical perspective, it has significant practical implications in engineering that here is great room to
 explore by introducing compression techniques or other practices widely used in distributed systems and databases.
@@ -144,7 +202,7 @@ Also we can further supplement the above interpretation that forming of IDR is n
 but coupled with
 - the pattern of message passing, BERT fully-connected, GPT causal broadcasting
 
-## GPT inference optimization techniques
+### GPT inference optimization techniques
 After the debut of GPT models, a variety of optimization techniques have been proposed to improve the efficiency and performance of GPT inference.
 If we look closely at these techniques from the theory's perspective, they can be generally categorized into two groups:
 1. Techniques that optimize the message passing mechanism.
@@ -152,11 +210,11 @@ If we look closely at these techniques from the theory's perspective, they can b
 Note that these two groups of techniques are not mutually exclusive, and some techniques may involve both aspects.
 Also we are not making any judgment on the effectiveness of these techniques, but just providing a new perspective to understand or further improve them based on the theory.
 
-## CoT
+### CoT
 If we view one IDR as a unit of intelligence.
 CoT could be regarded as injecting a set of meaningful IDRs as intermediate steps could significantly improve the quality of the further IDR being generated.
 
-## Symbolic AI
+### Symbolic AI
 (This section is very opinionated, rather than serious deduction, please feel free to disagree and discuss.
 The comments here are purely technical and philosophical,
 the original author(Shenghang) has nothing but huge admiration and respect for the pioneers and contributors of symbolic AI
