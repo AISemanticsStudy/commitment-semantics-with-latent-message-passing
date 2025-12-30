@@ -117,7 +117,7 @@ Actor-model based symbolic AI system (Smalltalk, Erlang) also has the object-tra
 With the theory, we could further confirm that the ideas kept being emphasized by Alan Kay, Joe Armstrong
 - message passing is the most universal semantic to model the physical world
 - objects are the units of intelligence
-- time must be a first-class citizen in a first principle theory of intelligence
+- time must be a first-class citizen to be studied in a first principle theory of intelligence
 
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
