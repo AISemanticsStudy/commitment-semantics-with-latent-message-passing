@@ -146,6 +146,23 @@ There are so many ways to answer this question if you don't have a well-defined 
 But once we have IDR defined, the answer becomes clear and straightforward:
 **Learning is message passing that leads to the formation of new IDRs.**
 
+
+Taking a closer look.
+We
+
+### Latent message passing is not the only way to form IDR
+Although the theory choose latent message passing as the primary mechanism to explain to form IDR in AI systems like GPT.
+The theory does not exclude other possible mechanisms to form IDR and doesn't claim latent message passing is the only perspective to express the dynamics.
+Latent message passing is defined as a fusion of convention and practice of distributed systems and deep learning model training/inference.
+Unlike IDR, latent message passing is not a semantic that can be formalized purely from mathematical perspective.
+It is more of an engineering-level design pattern that could be implemented in various ways.
+You can think of it as a software design pattern like MVC, repository, or observer etc.
+For IDR, it is very natural to reuse very well-defined mathematical formalization of other data types or theoretical frameworks to examine and analyze its
+properties
+(CRDT, WAL, logical clocks).
+But for latent message passing, we don't have such luxury(yet).
+And that why we have to invent a new terminology to describe it as a design pattern fusing hardcoded human source code and probabilistic states.
+
 ## Object-transfer duality of latent message passing
 
 ## revisiting existing AI paradigms and models from the theory's perspective
