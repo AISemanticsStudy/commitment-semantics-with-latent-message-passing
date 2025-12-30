@@ -71,7 +71,7 @@ With this theory, we could understand how stimulant and psychedelic drugs affect
 We the listing parallel of phenomenons and more potential applications on-going research might discover of the theory, we can make a strong call back to the theory
 that the semantics of intelligence and learning.
 - intelligence: IDR, strict, reliable, consistent
-- learning: general, flexible, adaptable, evolving. human brain, GPT and nature selection uses different mechanisms to achieve this.
+- learning: general, flexible, adaptable, evolving. human brain, GPT and nature selection each uses dramatically different mechanisms to achieve this.
 
 ## Repository Structure
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
