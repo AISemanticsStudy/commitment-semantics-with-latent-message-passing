@@ -118,6 +118,25 @@ two things we take for granted to form intelligence in human world:
 It is important to distinguish IDR from CRDT (Conflict-free Replicated Data Types) which is a kind of popular data structure widely used in
 distributed systems and modern consumer app requires merging information without conflicts (Notion, etc).
 
+Both IDR (Idempotent Discrete Record) and CRDT (Conflict-free Replicated Data Types) are concepts from distributed systems theory that deal with consistency and state management. They share some fundamental properties:
+
+1. **Idempotence**: Both systems ensure that applying the same operation multiple times yields the same result as applying it once.
+2. **Eventual Consistency**: Both aim for systems that can converge to a consistent state despite concurrent operations.
+3. **Decentralized Nature**: Both concepts are designed for distributed environments where coordination may be limited.
+
+Here are the key differences between IDR and CRDT:
+
+| Aspect | IDR (Idempotent Discrete Record) | CRDT (Conflict-free Replicated Data Types) |
+|--------|----------------------------------|-------------------------------------------|
+| **Primary Purpose** | Represents atomic units of intelligence/knowledge in AI systems | Enables conflict-free data replication in distributed systems |
+| **State Mutability** | Once formed, IDRs are stable and immutable to the same message | CRDTs are designed for continuous merging and updating |
+| **Semantic Focus** | Intelligence representation and commitment semantics | Data consistency and merge semantics |
+| **Temporal Aspect** | Logical time and commitment ordering are crucial | Often uses vector clocks for partial ordering |
+| **Update Pattern** | Messages either commit (create new IDR) or are ignored | Operations commute and can be applied in any order |
+| **Use Case** | AI model states (KVCache), DNA, human text | Collaborative editing, distributed databases |
+| **Mathematical Foundation** | Based on commitment semantics and logical clocks | Based on join-semilattices and monotonic operations |
+
+
 ### Logical clocks view of IDR
 
 ### IDR as WAL and its implications
