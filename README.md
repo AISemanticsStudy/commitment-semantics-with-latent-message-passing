@@ -142,17 +142,16 @@ But once we have IDR defined, the answer becomes clear and straightforward:
 
 ## revisiting existing AI paradigms and models from the theory's perspective
 
+### Residual
 
-## Residual
-
-## Bottleneck and level of features
+### Bottleneck and level of features
 If neural networks is of message passing semantics. We can safely use information bottleneck theory to analyze the level of features being learned at different layers of the network.
 
 
-## Feature map reusing and transfer learning
+### Feature map reusing and transfer learning
 The usefulness of reusing features maps support the durability of network being latent objects and forming connections between latent objects.
 
-## Checkpoint technique
+### Checkpoint technique
 The message passing semantic ensures the recomputation of the forward passing will always yield the same result as long as the IDR representation is not changed.
 Although it is obvious and trivial to prove this property from mathematical perspective, it has significant practical implications in engineering that here is great room to
 explore by introducing compression techniques or other practices widely used in distributed systems and databases.
@@ -203,7 +202,7 @@ Also we can further supplement the above interpretation that forming of IDR is n
 but coupled with
 - the pattern of message passing, BERT fully-connected, GPT causal broadcasting
 
-## GPT inference optimization techniques
+### GPT inference optimization techniques
 After the debut of GPT models, a variety of optimization techniques have been proposed to improve the efficiency and performance of GPT inference.
 If we look closely at these techniques from the theory's perspective, they can be generally categorized into two groups:
 1. Techniques that optimize the message passing mechanism.
@@ -211,11 +210,11 @@ If we look closely at these techniques from the theory's perspective, they can b
 Note that these two groups of techniques are not mutually exclusive, and some techniques may involve both aspects.
 Also we are not making any judgment on the effectiveness of these techniques, but just providing a new perspective to understand or further improve them based on the theory.
 
-## CoT
+### CoT
 If we view one IDR as a unit of intelligence.
 CoT could be regarded as injecting a set of meaningful IDRs as intermediate steps could significantly improve the quality of the further IDR being generated.
 
-## Symbolic AI
+### Symbolic AI
 (This section is very opinionated, rather than serious deduction, please feel free to disagree and discuss.
 The comments here are purely technical and philosophical,
 the original author(Shenghang) has nothing but huge admiration and respect for the pioneers and contributors of symbolic AI
