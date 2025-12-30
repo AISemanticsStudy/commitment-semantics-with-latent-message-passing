@@ -76,6 +76,8 @@ Also we can further supplement the above interpretation that forming of IDR is n
 ## GPT inference optimization techniques
 
 ## CoT
+If we view one IDR as a unit of intelligence.
+CoT could be regarded as injecting a set of meaningful IDRs as intermediate steps could significantly improve the quality of the further IDR being generated.
 
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
