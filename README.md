@@ -75,7 +75,7 @@ since that point, he has been constantly boggled by the strange being of GPT's K
 In the all the AI models he has worked on before, the inductive bias introduce by the model designers always align with
 how the model learn and how the model run.
 While GPT is the only model he has seen so far that breaks this convention.
-the KVCache stands out as a even flashy outlier.
+The KVCache stands out as a flashy outlier.
 The GPT was designed to has a "next token prediction" core capability,
 while what it produce it "KVCache" capability it has during inference
 feels more like a cliched word "emerging".
