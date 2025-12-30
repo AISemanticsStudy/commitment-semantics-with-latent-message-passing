@@ -54,6 +54,12 @@ These topics are not strictly required or fully covered by the theory, but they 
 - CRDTs (Conflict-free Replicated Data Types)
 - Actor model, SmallTalk, Erlang
 
+To fully understand this theory, you must have a solid understanding of these topics:
+- How GPT and BERT are trained and work during inference.
+- What is message passing and implications of it.
+- What is commitment semantics in databases and distributed systems.
+- How to use logical clocks to reason about distributed systems.
+
 ## LOC
 - the core concepts and definitions
 - revisiting existing AI paradigms and models from the theory's perspective
@@ -64,6 +70,7 @@ One confusing aspect of modern AI models like GPT is the presence of both random
 On one hand, these models are often described as probabilistic systems that generate outputs based on learned probability distributions.
 On the other hand, they can also exhibit deterministic behavior when given the same input and random seed.
 The strange mixture of behaviors hold people from studying it purely as a probabilistic system like random number generator or a deterministic system like database.
+But once the concept of IDR is formalized, you would find the
 
 
 ## Object-transfer duality of latent message passing
