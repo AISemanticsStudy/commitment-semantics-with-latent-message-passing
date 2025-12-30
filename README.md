@@ -49,6 +49,11 @@ And dreaming could be seen as an occasional inference process with a transient s
 
 ### DNA is evolutionary's IDR
 
+### Two level of intelligence
+With the theory, we could understand animal intelligence at two levels:
+- DNA
+- Brain
+
 ### Nature selection and mutation
 
 ### Difference between stimulant and psychedelic drugs
