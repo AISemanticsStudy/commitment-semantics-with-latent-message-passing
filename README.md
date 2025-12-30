@@ -131,6 +131,12 @@ The strange mixture of behaviors hold people from studying it purely as a probab
 But once the concept of IDR is formalized, you would find GPT is actually a commitment semantic system disguised as a probabilistic sampling system.
 It perfectly mirror the collapse of wave function in quantum mechanics although there is no proof to support AI is quantum(for now).
 
+### How about learning?
+After defining IDR as the core concept of intelligence representation, the next natural question is: How does learning happen? If IDRs are stable records, how are they formed and updated?
+
+There are so many ways to answer this question if you don't have a well-defined concept of intelligence unit.
+But once we have IDR defined, the answer becomes clear and straightforward:
+**Learning is message passing that leads to the formation of new IDRs.**
 
 ## Object-transfer duality of latent message passing
 
