@@ -149,7 +149,7 @@ There are so many ways to answer this question if you don't have a well-defined 
 But once we have IDR defined, the answer becomes clear and straightforward:
 **Learning is message passing that leads to the formation of new IDRs.**
 
-<!-- the original author(Shenghang) is assigned with critical task by CTO, and will be absent for a while to finish the message passing part -->
+<!-- the original author(Shenghang) is just assigned with critical task by CTO, and will be absent for a while to finish the message passing part -->
 <!-- but at this point the theory should be competed enough at its first published form -->
 
 ### Message passing has duality to neural network's dataflow
