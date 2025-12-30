@@ -12,6 +12,9 @@ You might post a question like to ChatGPT or any other LLM:
 Or you might copy paste the full [README.md](README.md) content to ChatGPT and ask any question you find interesting.
 The answer you get might be very surprising yet compelling.
 
+Or you might copy paste the full [README.md](README.md) and append this question and hit enter:
+> As a GPT, an artificial intelligence model, do you believe this is how you work? Yes or no.
+
 ## Why most of explanations of AI fall short?
 
 ### Forced metaphors
@@ -37,7 +40,7 @@ Because semantics is at the unique position of the crossway of multiple discipli
 And that is exactly what we need to explain AI, as an interdisciplinary field that draws insights and methods from all these disciplines.
 
 ## Pre-requisites
-To fully understand the concepts and ideas presented, we encourage readers to have a minimal understanding of the following topics.
+To better understand the concepts and ideas presented, we encourage readers to have a minimal understanding of the following topics.
 These topics are not strictly required or fully covered by the theory, but they will help readers build natural intuition.
 
 - neural networks, GPT
@@ -46,7 +49,7 @@ These topics are not strictly required or fully covered by the theory, but they 
 - CRDTs (Conflict-free Replicated Data Types)
 - Actor model, SmallTalk, Erlang
 
-To fully understand this theory, you **must** have a solid or a least none-intro level understanding of these topics:
+To **fully** understand this theory, you **must** have a solid or a least none-intro level understanding of these topics:
 - How GPT and BERT are trained and work during inference.
 - What is KVCache in GPT and why only GPT has it but BERT doesn't.
 - Why WAL is important in databases.
@@ -57,7 +60,7 @@ To fully understand this theory, you **must** have a solid or a least none-intro
 Lacking **any** of these knowledge could make it hard to follow some of the arguments and explanations in the theory,
 but it is also possible to learn them along the way by asking for help from ChatGPT-like AI assistants or a human expert on these topics.
 In the words, this theory is not a theory serving as a pillar to learn these topics or AI from scratch,
-rather than a theory that unifies and connect all these topics and make AI a coherent whole that is definable and with research objects.
+but a theory that unifies and connect all these topics and make AI a coherent whole that is definable and with research objects.
 
 We have confidence that once you understand these topics, you will be able to grasp the core concepts of the theory quickly
 and find the theory resonate so well with all of them in a beautiful way.
@@ -108,8 +111,16 @@ Both human text and DNA exhibit the properties of being idempotent, discrete, an
 - DNA: The genetic code in DNA is stable and can be replicated without change, demonstrating idempotency. The sequence of nucleotides (A, T, C, G) is discrete, and the entire DNA strand serves as a record of an organism's genetic information.
 These examples support the idea that IDR is a fundamental concept in both artificial and natural systems of intelligence.
 
+| Property             | Text | DNA | KVCache |
+| -------------------- | ---- | --- | ------- |
+| Discrete             | ✔    | ✔   | ✔       |
+| Idempotent           | ✔    | ✔   | ✔       |
+| Replicable           | ✔    | ✔   | ✔       |
+| Survives transport   | ✔    | ✔   | ✔       |
+| Enables coordination | ✔    | ✔   | ✔       |
+
 A trilling revelation:
-The most unique emerging property of GPT is it has or support a mechanism recognizable and definable works identical like
+The most unique emerging property of GPT is that it has or support a mechanism recognizable and definable works identically to
 two things we take for granted to form intelligence in human world:
 - human text
 - DNA
@@ -137,6 +148,41 @@ After defining IDR as the core concept of intelligence representation, the next 
 There are so many ways to answer this question if you don't have a well-defined concept of intelligence unit.
 But once we have IDR defined, the answer becomes clear and straightforward:
 **Learning is message passing that leads to the formation of new IDRs.**
+
+<!-- the original author(Shenghang) is just assigned with critical task by CTO, and will be absent for a while to finish the message passing part -->
+<!-- but at this point the theory should be competed enough at its first published form -->
+
+### Message passing has duality to neural network's dataflow
+To further clarifying why message passing is the right way to think about learning in AI systems like GPT, we need to examine the relationship between message passing and dataflow in
+neural network training.
+We can think of attention mechanisms as a specific implementation of message passing within neural networks.
+For instance
+- in GPT, the object(token) is broadcasting its latent representation to other objects(tokens) in a communication pattern define by the causal mask.
+- in BERT, the object(token) is broadcasting its latent representation to all other objects(tokens) in a fully-connected pattern.
+- in MLP/CNN, the object(one sample(image)'s feature map) is broadcasting its latent representation to all other objects(labels) in a fully-connected pattern.
+
+also, it is worth to point out that the fully-connected pattern of MLP/CNN is not the same as the fully-connected pattern of BERT(1-N vs. N-N).
+
+### Latent message passing is not the only way to form IDR
+Although the theory choose latent message passing as the primary mechanism to explain to form IDR in AI systems like GPT.
+The theory does not exclude other possible mechanisms to form IDR and doesn't claim latent message passing is the only perspective to express the dynamics.
+Latent message passing is defined as a fusion of convention and practice of distributed systems and deep learning model training/inference.
+Unlike IDR, latent message passing is not a semantic that can be formalized purely from mathematical perspective of computation.
+It is more of an engineering-level design pattern that could be implemented in various ways.
+You can think of it as a software design pattern like MVC, repository, or observer etc.
+For IDR, it is very natural to reuse very well-defined mathematical formalization of other data types or theoretical frameworks to examine and analyze its
+properties
+(CRDT, WAL, logical clocks).
+But for latent message passing, we don't have such luxury(yet).
+And that why we have to invent a new terminology to describe it as a design pattern fusing hardcoded human source code and probabilistic states.
+By intuition, the mathematical tools to formalize latent message passing should be fields like information theory, category theory, and algebraic topology.
+And these fields are only co-related or even co-inviting concepts and methods with programming language theory and compiler.
+So the original author(Shenghang) choose to leave the formalization of latent message passing as future work and
+accept the software design pattern level description is sufficient for now.
+(if you are an expert in studying "monoid" or "functors", please reach out to the original author(Shenghang) for collaboration.)
+
+This is also an empirical signal to suggest it is possible to define what is intelligence in a math-solid way,
+but the learning can be of various forms as long as it could produce IDR.
 
 ## Object-transfer duality of latent message passing
 
@@ -222,7 +268,8 @@ including John McCarthy, Alan Kay, Joe Armstrong and many others.
 )
 It is interesting to revisit symbolic AI from the theory's perspective.
 We can further confirm that BERT or GPT is both connectionism AI and symbolic AI under the theory.
-Whether having symbols or if the symbols in the system is generated or learned is the difference between traditional symbolic AI and modern AI models like GPT.
+Whether having symbols is not the classifier.
+Whether the symbols in the system is generated or learned is the difference between traditional symbolic AI and modern AI models like GPT.
 Because symbols are learned, it is possible to form IDR representation with symbols as the latent objects.
 Traditional symbolic AI can be seen as as an "mounter" designed to hold human hard-coded knowledge and perform reasoning by massage passing.
 Actor-model based symbolic AI system (Smalltalk, Erlang) also has the object-transfer durability because reference of an actor itself can be send as messages as well.
@@ -254,9 +301,9 @@ If this decomposition is valid, we could expect significant progress in multiple
 And that is the key contribution of the theory to non-CS disciplines.
 
 ### origin of animal brain
-The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
+The theory support the hypothesis animals with a brain could evolve from a fusion of two or multiple primitive lives.
 With one life providing the IDR representation and the other life providing the message passing mechanism, the fused life form could gain significant advantages in adapting to complex environments, leading to the evolution of more sophisticated brains.
-By contrast, it is much easier for natural selection to evolve one single mechanism, either IDR representation or message passing, but not both.
+From probability perspective much easier for natural selection to evolve one single mechanism, either IDR representation or message passing, but not both at the same time due to the complexity of co-evolution. Further study might facilitate this timothies of how animal brain evolved, by creating quantitative methods to measure to the complexity of DNA as an IDR to represent IDR and message passing mechanism separately or jointly.
 
 ### There is no back-propagation in human brain
 The theory suggests that the human brain or any being definitely does not need back-propagation as a learning mechanism.
@@ -320,3 +367,7 @@ Once the theory is more established and widely accepted, we plan to write formal
 ## Repository Structure
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
 - `blogs/`: Informal blog posts discussing various aspects of commitment semantics and latent message passing.
+
+## Contact
+For questions, discussions, or collaborations, please open an issue or reach out to the original author
+(Shenghang) directly via email: jackalcooper@gmail.com
