@@ -351,3 +351,7 @@ Once the theory is more established and widely accepted, we plan to write formal
 ## Repository Structure
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
 - `blogs/`: Informal blog posts discussing various aspects of commitment semantics and latent message passing.
+
+## Contact
+For questions, discussions, or collaborations, please open an issue or reach out to the original author
+(Shenghang) directly via email: jackalcooper@gmail.com
