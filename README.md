@@ -31,6 +31,9 @@ I have to borrow some trust from you here.
 The most natural and universal angle to explain AI models is through the lens of **semantics**.
 To be more specific, the computational semantics of a modern AI model like GPT/BERT.
 
+Because semantics is at the unique position of the crossway of multiple disciplines including computer science, cognitive science, linguistics, and philosophy.
+And that is exactly what we need to explain AI, as an interdisciplinary field that draws insights and methods from all these disciplines.
+
 ## Why project not paper?
 The unique view of the theory being developed here follows and uses the concepts and wording wildly used in programming languages, distributed systems, and databases, which makes the theory more accessible to researchers from these fields, and also opens up more engineering-focused practitioners to understand the concepts.
 Also we don't want to write a paper for the sake of writing a paper, that forcing the core subject of this theory, **semantics**, into the rigid format of one specific mathematical framework or formal system.
