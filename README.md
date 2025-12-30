@@ -11,6 +11,48 @@ Why this is important? We would like to make the theory as theoretical and as st
 
 Once the theory is more established and widely accepted, we plan to write formal papers to present the findings in a traditional academic format and submit them to well-suited tracks of conferences and journals of different fields and disciplines.
 
+## Pre-requisites
+To fully understand the concepts and ideas presented, we encourage readers to have a minimal understanding of the following topics.
+These topics are not strictly required, but they will help readers build natural intuition.
+
+- Consensus algorithms (e.g., Paxos, Raft)
+- CRDTs (Conflict-free Replicated Data Types)
+- SmallTalk and Erlang programming languages
+
+## LOC
+- the core concepts and definitions
+- revisiting existing AI paradigms and models from the theory's perspective
+- hypothesis and cross-discipline observations derived from the theory
+
+
+## hypothesis and cross-discipline observations derived from the theory
+### origin of animal
+support the hypothesis animal with brain could evolve from a fusion of two different single-cell organisms.
+One organism
+
+
+### There is no back-propagation in human brain
+The theory suggests that the human brain definitely does not need back-propagation as a learning mechanism.
+Using only prune and connect operations on neural linkages (synapses) to adjust the message passing pathways is sufficient for the brain to learn and adapt to new information.
+
+### Neural linkage's robustness
+
+One long standing question in neuroscience is how the brain maintains stable memory and intelligent behavior over sparse neural linkages (synapses) over long periods of time, despite the fact that individual synapses are constantly being formed and pruned. The message passing part of the theory provides a solid explanation for this phenomenon. Because the neural linkage purely serves as a communication channel for passing latent messages, the exact structure and strength of individual synapses are not critical for maintaining the overall functionality of the brain. As long as there are enough synapses to facilitate the necessary message passing, the brain can continue to function effectively, even if individual synapses are lost or weakened over time.
+
+### Human brain has area(s) to store IDR
+
+
+### Sleep and dreaming
+Under the theory, sleep could be understood as a process equivalent to a GPT conducting offline training to update its IDR representation.
+
+### DNA is evolutionary's IDR
+
+### Nature selection and mutation
+
+### Difference between stimulant and psychedelic drugs
+
+stimulant could help prolong
+
 ## Repository Structure
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
 - `blogs/`: Informal blog posts discussing various aspects of commitment semantics and latent message passing.
