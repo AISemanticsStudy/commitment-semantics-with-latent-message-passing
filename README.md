@@ -106,7 +106,7 @@ CoT could be regarded as injecting a set of meaningful IDRs as intermediate step
 (This section is very opinionated, rather than serious deduction, please feel free to disagree and discuss.
 The comments here are purely technical and philosophical,
 the original author(Shenghang) has nothing but huge admiration and respect for the pioneers and contributors of symbolic AI
-including John McCarthy, Marvin Minsky, Joe Armstrong and many others.
+including John McCarthy, Alan Kay, Joe Armstrong and many others.
 )
 It is interesting to revisit symbolic AI from the theory's perspective.
 We can further confirm that BERT or GPT is both connectionism AI and symbolic AI under the theory.
