@@ -103,10 +103,12 @@ If we view one IDR as a unit of intelligence.
 CoT could be regarded as injecting a set of meaningful IDRs as intermediate steps could significantly improve the quality of the further IDR being generated.
 
 ## Symbolic AI
+(This section is very personal opinionated of the original author(Shenghang), rather than serious scientific deduction, please feel free to disagree and discuss.)
 It is interesting to revisit symbolic AI from the theory's perspective.
 We can further confirm that BERT or GPT is both connectionism AI and symbolic AI under the theory.
 Whether having symbols or if the symbols in the system is generated or learned is the difference between traditional symbolic AI and modern AI models like GPT.
 Because symbols are learned, it is possible to form IDR representation with symbols as the latent objects.
+Traditional symbolic AI can be seen as as an "mounter"
 
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
