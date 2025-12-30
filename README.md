@@ -54,7 +54,7 @@ And dreaming could be seen as an occasional inference process with a transient s
 Like KVCache, DNA strictly complies with the properties of IDR representation defined in the theory.
 
 ### Two level of IDR
-With the theory, we could understand animal intelligence at two levels by recognizing two levels of IDR representation and message passing mechanism:
+With the theory, we could understand animal intelligence at two levels by recognizing two levels of IDR representation:
 - DNA
 - Brain
 
