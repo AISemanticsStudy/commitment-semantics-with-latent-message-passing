@@ -150,7 +150,7 @@ It perfectly mirror the collapse of wave function in quantum mechanics although 
 ### How about learning?
 After defining IDR as the core concept of intelligence representation, the next natural question is: How does learning happen? If IDRs are stable records, how are they formed and updated?
 
-There are so many ways to answer this question if you don't have a well-defined concept of intelligence unit.
+There are so many ways to answer this question if you don't have a well-defined concept of minimal committable semantic unit
 But once we have IDR defined, the answer becomes clear and straightforward:
 **Learning is message passing that leads to the formation of new IDRs.**
 
@@ -234,7 +234,7 @@ This opens up the possibility of forming IDR that is not linear but aligned with
 So in the definition of IDR, we don't require the IDR to be generated from causality but only define it being idempotent and discrete.
 In the theory, causality is a purely problem of alignment not a problem of dynamics.
 It is worth to point out that these are still an open questions and our theory is not yet mature enough to provide a definitive answer on:
-- if idempotent and discrete are the minimal requirements for forming IDR as a representation of atomic intelligence unit if we and building models in non-causal domains.
+- if idempotent and discrete are the minimal requirements for forming IDR as a representation of atomic unit if we and building models in non-causal domains.
 - if intelligence as a concept itself is strictly coupled with causality.
 The original author(Shenghang) doesn't have a strong conviction on this yet due to the lack of more concrete evidences and tools to validate.
 We believe the falsifiability of these questions is crucial for the theory to be a scientific theory rather than a philosophical one and could foreseen this to be an important direction for future research.
@@ -298,8 +298,8 @@ Please note that the role of the theory in other disciplines is still very preli
 We would advise you to use it as a guideline to prune and examine your research goal (separate of the concerns)
 rather than using it to predict or explain until more concrete evidences and validations are found.
 The core takeaway you can derive from the theory is the separation of intelligence into two orthogonal dimensions:
-- IDR representation: the intelligence unit's representation and how it is being stored
-- message passing mechanism: how the intelligence units communicate and coordinate with each other
+- IDR representation: the minimal committable semantic unit's representation and how it is being stored
+- message passing mechanism: how the minimal committable semantic units communicate and coordinate with each other
 With this separation in mind, we could confidently explore various hypothesis and observations in a much focus and precise manner.
 For instance, one researcher could presumably focus on studying to locate IDR representation in human brain rather than being distracted by the complexity of neural linkages.
 If this decomposition is valid, we could expect significant progress in multiple disciplines by applying the theory as a guiding principle and further validate the theory itself.
