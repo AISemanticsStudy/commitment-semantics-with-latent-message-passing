@@ -371,6 +371,7 @@ Once the theory is more established and widely accepted, we plan to write formal
 
 ## Repository Structure
 - `models/`: Implementations of various experimental AI models designed by applying the theory.
+  - [torus-10](models/torus-10/README.md) exploits torus topology of pixels and  using database as KVCache to build GPT model for video generation.
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
 - `blogs/`: Informal blog posts discussing various aspects of commitment semantics and latent message passing.
 
