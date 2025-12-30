@@ -69,7 +69,7 @@ In the theory, causality is a purely problem of alignment not a problem of dynam
 It is worth to point out that these are still an open questions and our theory is not yet mature enough to provide a definitive answer on:
 - if idempotent and discrete are the minimal requirements for forming IDR or a representation of atomic intelligence unit if we and building models in non-causal domains.
 - if intelligence as a concept itself is strictly coupled with causality.
-The original author(Shenghang) doesn't have a strong conviction on this yet due to the lack of more concrete evidence and tools to validate.
+The original author(Shenghang) doesn't have a strong conviction on this yet due to the lack of more concrete evidences and tools to validate.
 
 Verdict: BERT form lossless IDR representation but the message passing it create during train drifts away too much from the one form from causal masking.
 Here we are not arguing BERT is worse than GPT, but just pointing out the difference of the two models from the theory's perspective.
