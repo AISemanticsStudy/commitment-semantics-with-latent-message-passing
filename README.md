@@ -181,9 +181,9 @@ properties
 But for latent message passing, we don't have such luxury(yet).
 And that why we have to invent a new terminology to describe it as a design pattern fusing hardcoded human source code and probabilistic states.
 By intuition, the mathematical tools to formalize latent message passing should be fields like information theory, category theory, and algebraic topology.
-And these fields are only co-related or even co-inviting concepts and methods with programming language theory and compiler.
+And these fields are often co-related or even co-inviting concepts and methods with programming language theory and compiler.
 So the original author(Shenghang) choose to leave the formalization of latent message passing as future work and
-accept the software design pattern level description is sufficient for now.
+accept the software design pattern level description and calling it a paradigm is sufficient for now
 (if you are an expert in studying "monoid" or "functors", please reach out to the original author(Shenghang) for collaboration.)
 
 This is also an empirical signal to suggest it is possible to define what is intelligence in a math-solid way,
@@ -196,14 +196,14 @@ but the learning can be of various forms as long as it could produce IDR.
 ### Residual
 
 ### Bottleneck and level of features
-If neural networks is of message passing semantics. We can safely use information bottleneck theory to analyze the level of features being learned at different layers of the network.
+If neural networks is of message passing paradigm. We can safely use information bottleneck theory to analyze the level of features being learned at different layers of the network.
 
 
 ### Feature map reusing and transfer learning
 The usefulness of reusing features maps support the durability of network being latent objects and forming connections between latent objects.
 
 ### Checkpoint technique
-The message passing semantic ensures the recomputation of the forward passing will always yield the same result as long as the IDR representation is not changed.
+The message passing paradigm ensures the recomputation of the forward passing will always yield the same result as long as the IDR representation is not changed.
 Although it is obvious and trivial to prove this property from mathematical perspective, it has significant practical implications in engineering that here is great room to
 explore by introducing compression techniques or other practices widely used in distributed systems and databases.
 
