@@ -43,6 +43,9 @@ One long standing question in neuroscience is how the brain maintains stable mem
 ### Human brain's IDR
 If you are a neuroscientist, you may find it interesting to think about what the IDR representation in human brain could be. And please feel free to share your thoughts and findings with us!
 
+### Alzheimer's disease study
+With the theory, we could understand Alzheimer's disease as a progressive degradation of the IDR representation.
+
 ### Sleep and dreaming
 Under the theory, sleep could be understood as a process equivalent to a GPT conducting offline training to update its IDR representation.
 And dreaming could be seen as an occasional inference process with a transient state of the message passing pathways being reconfigured.
