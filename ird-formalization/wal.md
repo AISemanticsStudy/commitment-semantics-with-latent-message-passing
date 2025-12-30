@@ -1,5 +1,8 @@
 # IDR as WAL and Its Implications
 
+> Note that the original author(Shenghang) of the theory is not a mathematician by training. the formalization below is generated with the assistance of AI tools.
+> Human review and polishing is welcomed.
+
 ## The Analogy: IDR as Write-Ahead Log
 
 In database systems, a **Write-Ahead Log (WAL)** is a fundamental technique that ensures data durability and consistency. The core principle is simple: **all modifications to data must be logged before they are applied to the actual database**. This provides:

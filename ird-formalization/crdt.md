@@ -1,5 +1,8 @@
 ## IDR vs. CRDT: A Comparison
 
+> Note that the original author(Shenghang) of the theory is not a mathematician by training. the formalization below is generated with the assistance of AI tools.
+> Human review and polishing is welcomed.
+
 ### Core Similarities
 Both IDR (Idempotent Discrete Record) and CRDT (Conflict-free Replicated Data Types) are concepts from distributed systems theory that deal with consistency and state management. They share some fundamental properties:
 

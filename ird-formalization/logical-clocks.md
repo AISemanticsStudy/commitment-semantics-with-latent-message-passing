@@ -1,5 +1,8 @@
 # Logical Clocks View of IDR
 
+> Note that the original author(Shenghang) of the theory is not a mathematician by training. the formalization below is generated with the assistance of AI tools.
+> Human review and polishing is welcomed.
+
 ## The Core Insight
 
 The logical clocks view of IDR provides a powerful framework for understanding how intelligence units (IDRs) relate to each other temporally without requiring a global clock. This perspective draws directly from **Lamport's logical clocks** and **vector clocks** in distributed systems theory.
