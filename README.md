@@ -47,7 +47,7 @@ Verdict: BERT form lossless IDR representation but the message passing it create
 Here we are not arguing BERT is worse than GPT, but just pointing out the difference of the two models from the theory's perspective.
 On the contrary, revisiting BERT's unique design from the les of the theory could lead to the conclusion that BERT would be perfect for tasks:
 - can perfectly encode its message passing as a mask distribution.
--
+- hidden objects require exact same connections to each other.
 
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
