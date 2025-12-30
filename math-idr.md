@@ -1,6 +1,6 @@
 # Mathematical Formalization of IDR Properties
 
-(Note that the original author(Shenghang) of the theory is not a mathematician by training. the formalization below is generated with the assistance of AI tools.
+Note that the original author(Shenghang) of the theory is not a mathematician by training. the formalization below is generated with the assistance of AI tools.
 Let's formalize the Idempotent Discrete Record (IDR) concept mathematically, drawing from distributed systems theory, database semantics, and functional analysis.
 
 ## 1. Basic Definitions
