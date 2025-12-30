@@ -102,6 +102,11 @@ Also we are not making any judgment on the effectiveness of these techniques, bu
 If we view one IDR as a unit of intelligence.
 CoT could be regarded as injecting a set of meaningful IDRs as intermediate steps could significantly improve the quality of the further IDR being generated.
 
+## Symbolic AI
+It is interesting to revisit symbolic AI from the theory's perspective.
+We can further confirm that BERT or GPT is both connectionism AI and symbolic AI under the theory.
+Whether having symbols or if the symbols in the system is generated or learned is the difference between traditional symbolic AI and modern AI models like GPT.
+
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
