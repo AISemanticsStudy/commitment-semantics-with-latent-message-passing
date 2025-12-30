@@ -371,3 +371,17 @@ Once the theory is more established and widely accepted, we plan to write formal
 ## Contact
 For questions, discussions, or collaborations, please open an issue or reach out to the original author
 (Shenghang) directly via email: jackalcooper@gmail.com
+
+## Citation
+If you find this theory useful in your research or work, please consider citing it as follows:
+```
+@misc{shenghang2025commitment,
+  author = {Shenghang},
+  title = {Commitment Semantics with Latent Message Passing},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/AISemanticsStudy/commitment-semantics-with-latent-message-passing}},
+  note = {A theory formalizing computational semantics of artificial intelligence}
+}
+```
