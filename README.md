@@ -180,7 +180,7 @@ And GPT is so simple with both minimum design in training and inference.
 
 ## hypothesis and cross-discipline observations derived from the theory
 Please note that the role of the theory in other disciplines is still very preliminary and speculative.
-We would advise you to use it as a guideline to prune and examine your research thesis
+We would advise you to use it as a guideline to prune and examine your research goal (separate of the concerns)
 rather than using it to predict or explain until more concrete evidences and validations are found.
 The core takeaway you can derive from the theory is the separation of intelligence into two orthogonal dimensions:
 - IDR representation: the intelligence unit's representation and how it is being stored
