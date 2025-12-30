@@ -181,7 +181,7 @@ properties
 But for latent message passing, we don't have such luxury(yet).
 And that why we have to invent a new terminology to describe it as a design pattern fusing hardcoded human source code and probabilistic states.
 By intuition, the mathematical tools to formalize latent message passing should be fields like information theory, category theory, and algebraic topology.
-And these fields are only co-related or even co-inviting concepts and methods with programming language theory and compiler.
+And these fields are often co-related or even co-inviting concepts and methods with programming language theory and compiler.
 So the original author(Shenghang) choose to leave the formalization of latent message passing as future work and
 accept the software design pattern level description is sufficient for now.
 (if you are an expert in studying "monoid" or "functors", please reach out to the original author(Shenghang) for collaboration.)
