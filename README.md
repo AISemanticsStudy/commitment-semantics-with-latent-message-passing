@@ -66,6 +66,8 @@ If the IDR is not generated following the causality of the physical world, the I
 This also opens up the possibility of forming IDR that is not linear but aligned with other forms of causality, e.g., hierarchical causality or graph-based causality or even non-causal relationships.
 So in the definition of IDR, we don't require the IDR to be generated from causality but only define it being idempotent and discrete.
 In the theory, causality is a purely problem of alignment not a problem of dynamics.
+It is worth to point out that if idempotent and discrete are the minimal requirements for forming IDR or a representation of atomic intelligence unit is still an open question.
+The original author(Tsai) doesn't have a strong conviction on this yet due to the lack of more concrete evidence and tools to validate.
 
 Verdict: BERT form lossless IDR representation but the message passing it create during train drifts away too much from the one form from causal masking.
 Here we are not arguing BERT is worse than GPT, but just pointing out the difference of the two models from the theory's perspective.
