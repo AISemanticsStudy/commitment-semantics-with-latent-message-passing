@@ -18,7 +18,7 @@ These topics are not strictly required or fully covered by the theory, but they 
 - WAL (Write Ahead Log)
 - Logical Clocks and Consensus algorithms (e.g., Paxos, Raft)
 - CRDTs (Conflict-free Replicated Data Types)
-- SmallTalk and Erlang programming languages
+- Actor model, SmallTalk, Erlang
 
 ## LOC
 - the core concepts and definitions
