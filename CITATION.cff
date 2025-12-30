@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use the theory, please cite it as below."
+authors:
+- family-names: "Cai"
+  given-names: "Shenghang"
+  orcid: "https://orcid.org/0009-0003-7397-1203"
+title: "Commitment Semantics with Latent Message Passing"
+version: 0.0.1
+date-released: 2025-12-30
+url: "https://github.com/AISemanticsStudy/commitment-semantics-with-latent-message-passing"
