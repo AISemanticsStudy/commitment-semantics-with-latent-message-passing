@@ -63,7 +63,7 @@ These topics are not strictly required or fully covered by the theory, but they 
 One confusing aspect of modern AI models like GPT is the presence of both randomness and determinism in their behavior.
 On one hand, these models are often described as probabilistic systems that generate outputs based on learned probability distributions.
 On the other hand, they can also exhibit deterministic behavior when given the same input and random seed.
-The strange mixture of behaviors hold people from studying it purely as a random number generator-like probabilistic system or a deterministic system like database.
+The strange mixture of behaviors hold people from studying it purely as a probabilistic system like random number generator or a deterministic system like database.
 
 
 ## Object-transfer duality of latent message passing
