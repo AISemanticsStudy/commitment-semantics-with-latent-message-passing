@@ -82,7 +82,7 @@ On the contrary, revisiting BERT's unique design from the les of the theory coul
 - can perfectly encode its message passing as a mask distribution.
 - hidden objects require exact same connections to each other.
 
-To summarize, BERT can produce IDR, but its IDR is not compatible with the physical world tightly.
+To summarize, BERT can produce IDR, but its IDR is not compatible with the physical world tightly because BERT's message passing is fully-connected rather than causal broadcasting.
 We are not drawing a conclusion casual masking or an autoregressive model is always better but pointing out under the theory, different masking strategies can be explainable purely from distribution alignment.
 rather than empirical performance or philosophical take.
 Also we can further supplement the above interpretation that forming of IDR is not coupled with
