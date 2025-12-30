@@ -109,7 +109,7 @@ Both human text and DNA exhibit the properties of being idempotent, discrete, an
 These examples support the idea that IDR is a fundamental concept in both artificial and natural systems of intelligence.
 
 A trilling revelation:
-The most unique emerging property of GPT is it has or support a mechanism recognizable and definable works identical like
+The most unique emerging property of GPT is that it has or support a mechanism recognizable and definable works identical like
 two things we take for granted to form intelligence in human world:
 - human text
 - DNA
