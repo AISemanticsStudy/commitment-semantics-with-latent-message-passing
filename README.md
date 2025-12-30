@@ -56,6 +56,8 @@ These topics are not strictly required or fully covered by the theory, but they 
 
 To fully understand this theory, you **must** have a solid or a least none-intro level understanding of these topics:
 - How GPT and BERT are trained and work during inference.
+- What is KVCache in GPT and why only GPT has it but BERT doesn't.
+- Why WAL is important in databases.
 - What is message passing and implications of it.
 - What is commitment semantics in databases and distributed systems.
 - How to use logical clocks to reason about distributed systems.
