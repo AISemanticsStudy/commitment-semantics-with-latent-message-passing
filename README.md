@@ -34,6 +34,7 @@ One organism
 ### There is no back-propagation in human brain
 The theory suggests that the human brain definitely does not need back-propagation as a learning mechanism.
 Using only prune and connect operations on neural linkages (synapses) to adjust the message passing pathways is sufficient for the brain to learn and adapt to new information.
+As long as the linkages maintain a set of IDRs
 
 ### Neural linkage's robustness
 
