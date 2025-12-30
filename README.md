@@ -28,6 +28,8 @@ The ideal explanation should be able to define AI using well-formed semantics as
 and derive the dynamics of as a macro landscape to overview how an AI model works and why it could work.
 
 What is more important, the explanation should be compatible with all existing well-established findings in life sciences, cognitive sciences, neuroscience, and computer science.
+If the explanation could not align with these well-established findings, there should be a very falsifiable prediction that could be tested to validate or invalidate the explanation rather than
+using the explanation to cherry-pick some findings and discard others.
 
 ## Why project not paper?
 The unique view of the theory being developed here follows and uses the concepts and wording wildly used in programming languages, distributed systems, and databases, which makes the theory more accessible to researchers from these fields, and also opens up more engineering-focused practitioners to understand the concepts.
