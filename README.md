@@ -61,7 +61,7 @@ To demonstrate how BERT fits into the theory, we could conduct the following tho
 2. Mask only last token.
 
 One property we must discuss with the definition of IDR is actually inspired by BERT.
-We must define the alignment between the IDR representation and causality is a requirement.
+We do not include the alignment between the IDR representation and causality to be a requirement in our definition.
 If the IDR is not generated following the causality of the physical world, the IDR could not be used to represent the physical world accurately.
 This also opens up the possibility of forming IDR that is not linear but aligned with other forms of causality, e.g., hierarchical causality or graph-based causality or even non-causal relationships.
 So in the definition of IDR, we don't require the IDR to be generated from causality but only define it being idempotent and discrete.
