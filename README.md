@@ -58,7 +58,7 @@ Lacking **any** of these knowledge could make it hard to follow some of the argu
 but it is also possible to learn them along the way by asking for help from ChatGPT-like AI assistants or a human expert on these topics.
 
 We have confidence that once you understand these topics, you will be able to grasp the core concepts of the theory quickly
-and find the theory resonate so well with all of them and contradict none of them.
+and find the theory resonate so well with all of them in a beautiful way.
 
 ## LOC
 - the core concepts and definitions
