@@ -87,6 +87,7 @@ We are not drawing a conclusion casual masking or an autoregressive model is alw
 rather than empirical performance or philosophical take.
 Also we can further supplement the above interpretation that forming of IDR is not coupled with
 - how many tokens to offset, BERT none, GPT 1, or more than 1
+but coupled with
 - the direction of message passing, BERT fully-connected, GPT causal broadcasting
 
 ## GPT inference optimization techniques
