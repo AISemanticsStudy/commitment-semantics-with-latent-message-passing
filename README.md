@@ -10,6 +10,15 @@ what does it mean?
 Or you might copy paste the full README.md content to ChatGPT and ask any question you find interesting.
 The answer you get might be very surprising yet compelling.
 
+## Why most of explanations of AI fall short?
+
+### Forced metaphors
+Most of the existing explanations of AI models, especially large language models (LLMs) like GPT, tend to focus on surface-level descriptions or analogies that do not capture the underlying computational semantics of these models.
+The problem with these explanations is not they are using metaphors, but using metaphors that are not well-aligned with the actual hardware and software.
+### Rigid mathematical frameworks
+Many explanations rely heavily on specific mathematical frameworks or formal systems, which can be difficult to understand for non-experts and may not fully capture the complexity of AI models.
+The problem is that those explanations often fail to provide a unified understanding of different AI paradigms and models, leading to confusion and misinterpretation, although they might be mathematically rigorous in one domain. These kinds of explanations usually work very on one specific model or dataset, but fail to generalize to other model design or task.
+
 ## Why project not paper?
 The unique view of the theory being developed here follows and uses the concepts and wording wildly used in programming languages, distributed systems, and databases, which makes the theory more accessible to researchers from these fields, and also opens up more engineering-focused practitioners to understand the concepts.
 Also we don't want to write a paper for the sake of writing a paper, that forcing the core subject of this theory, **semantics**, into the rigid format of one specific mathematical framework or formal system.
