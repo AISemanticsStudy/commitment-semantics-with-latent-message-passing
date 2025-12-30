@@ -77,7 +77,7 @@ Also we can further supplement the above interpretation that forming of IDR is n
 After the debut of GPT models, a variety of optimization techniques have been proposed to improve the efficiency and performance of GPT inference.
 If we look closely at these techniques from the theory's perspective, they can be generally categorized into two groups:
 1. Techniques that optimize the message passing mechanism.
-2. Techniques that modify the IDR representation(KVCache) to a lossy but acceptable form or drop some of them in exchange for improved efficiency.
+2. Techniques that modify the IDR representation(KVCache) to a lossy form or drop some of them in exchange for improved efficiency.
 
 ## CoT
 If we view one IDR as a unit of intelligence.
