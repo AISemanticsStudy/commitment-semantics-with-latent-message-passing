@@ -55,7 +55,7 @@ To fully understand this theory, you **must** have a solid or a least none-intro
 - How to use logical clocks to reason about distributed systems.
 
 Lacking **any** of these knowledge could make it hard to follow some of the arguments and explanations in the theory,
-but it is also possible to learn them along the way by asking for help from ChatGPT and other AI assistants.
+but it is also possible to learn them along the way by asking for help from ChatGPT-like AI assistants or a human expert on these topics.
 
 But we have confidence that once you understand these topics, you will be able to grasp the core concepts of the theory quickly and easily
 and find the theory resonate so well with all other them and contradict none of them.
