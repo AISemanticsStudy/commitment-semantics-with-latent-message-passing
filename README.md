@@ -113,7 +113,7 @@ We can further confirm that BERT or GPT is both connectionism AI and symbolic AI
 Whether having symbols or if the symbols in the system is generated or learned is the difference between traditional symbolic AI and modern AI models like GPT.
 Because symbols are learned, it is possible to form IDR representation with symbols as the latent objects.
 Traditional symbolic AI can be seen as as an "mounter" designed to hold human hard-coded knowledge and perform reasoning by massage passing.
-Actor-model based symbolic AI also has the object-transfer durability because reference of actor itself can be send as messages as well.
+Actor-model based symbolic AI system (Smalltalk, Erlang) also has the object-transfer durability because reference of actor itself can be send as messages as well.
 
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
