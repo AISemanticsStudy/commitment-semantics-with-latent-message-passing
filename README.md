@@ -61,7 +61,7 @@ Mutation should not just be emergent useful behavior for the life form, but also
 
 ### Difference between stimulant and psychedelic drugs
 
-stimulant could help prolong
+With this theory, we could understand how stimulant and psychedelic drugs affect human brain differently by studying how do they effect IDR representation and message passing mechanisms.
 
 ## Repository Structure
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
