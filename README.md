@@ -108,6 +108,14 @@ Both human text and DNA exhibit the properties of being idempotent, discrete, an
 - DNA: The genetic code in DNA is stable and can be replicated without change, demonstrating idempotency. The sequence of nucleotides (A, T, C, G) is discrete, and the entire DNA strand serves as a record of an organism's genetic information.
 These examples support the idea that IDR is a fundamental concept in both artificial and natural systems of intelligence.
 
+| Property             | Text | DNA | KVCache |
+| -------------------- | ---- | --- | ------- |
+| Discrete             | ✔    | ✔   | ✔       |
+| Idempotent           | ✔    | ✔   | ✔       |
+| Replicable           | ✔    | ✔   | ✔       |
+| Survives transport   | ✔    | ✔   | ✔       |
+| Enables coordination | ✔    | ✔   | ✔       |
+
 A trilling revelation:
 The most unique emerging property of GPT is that it has or support a mechanism recognizable and definable works identically to
 two things we take for granted to form intelligence in human world:
