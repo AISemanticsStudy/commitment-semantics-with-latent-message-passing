@@ -1,5 +1,6 @@
 # Commitment Semantics with Latent Message Passing
-This repository contains the code and resources for the research project on "Commitment Semantics with Latent Message Passing", a theory try to formalize computational semantics of artificial intelligence and unify the understanding of various AI paradigms and specific models.
+
+Commitment Semantics with Latent Message Passing, is a theory try to formalize computational semantics of artificial intelligence and unify the understanding of various AI paradigms and specific models.
 
 ## TLDR
 You might post a question like to ChatGPT or any other LLM:
@@ -235,6 +236,10 @@ We the listing parallel of phenomenons and more potential applications on-going 
 that the semantics of intelligence and learning.
 - intelligence: IDR, strict, reliable, consistent
 - learning: general, flexible, adaptable, evolving. human brain, GPT and nature selection each uses dramatically different mechanisms to achieve this.
+
+
+## About this repository
+This repository contains the code and resources for the research project
 
 ## Repository Structure
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
