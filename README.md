@@ -67,7 +67,7 @@ This also opens up the possibility of forming IDR that is not linear but aligned
 So in the definition of IDR, we don't require the IDR to be generated from causality but only define it being idempotent and discrete.
 In the theory, causality is a purely problem of alignment not a problem of dynamics.
 It is worth to point out that these are still an open questions and our theory is not yet mature enough to provide a definitive answer on:
-- if idempotent and discrete are the minimal requirements for forming IDR or a representation of atomic intelligence unit if we and building models in non-causal domains.
+- if idempotent and discrete are the minimal requirements for forming IDR as a representation of atomic intelligence unit if we and building models in non-causal domains.
 - if intelligence as a concept itself is strictly coupled with causality.
 The original author(Shenghang) doesn't have a strong conviction on this yet due to the lack of more concrete evidences and tools to validate.
 
