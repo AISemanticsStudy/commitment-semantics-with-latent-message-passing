@@ -370,6 +370,7 @@ Why this is important? We would like to make the theory as theoretical and as st
 Once the theory is more established and widely accepted, we plan to write formal papers to present the findings in a traditional academic format and submit them to well-suited tracks of conferences and journals of different fields and disciplines.
 
 ## Repository Structure
+- `models/`: Implementations of various experimental AI models designed by applying the theory.
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
 - `blogs/`: Informal blog posts discussing various aspects of commitment semantics and latent message passing.
 
