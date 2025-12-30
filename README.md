@@ -169,6 +169,10 @@ With the theory, we could further confirm that the ideas kept being emphasized b
 - time must be a first-class citizen to be studied in a first principle theory of intelligence
 
 Also we can conclude that a GPT is essentially a massive, probabilistic actor system.
+So here we find GPT to be such an exceptional yet inclusive rare being, is all at once:
+- a commitment semantic system, aka, database/distributed system
+- a probabilistic sampling system, aka, random number generator
+- a actor system, aka, message passing system
 
 ## hypothesis and cross-discipline observations derived from the theory
 Please note that the role of the theory in other disciplines is still very preliminary and speculative.
