@@ -34,6 +34,8 @@ Form lossy IDR.
 Doesn't form IDR. Purely message passing.
 So under the theory, CNN is not a complete model for intelligence.
 Please note that this is not mean to discount their researchers/inventors's contributions to the great success of CNN in computer vision tasks and MLP as a foundational building blocks of AI in general.
+This is also a reminder for us the word choice of "intelligence" to describe IDR could be transitional and context-dependent.
+Once IDR is a well-established concept in AI research, we could inter-communicate more precisely without using general terms like "intelligence".
 
 ### BERT
 We should take caution when interpreting BERT's role in the theory because BERT is the an special case where it contracts GPT both IDR representation and message passing into one single model.
