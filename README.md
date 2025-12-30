@@ -73,6 +73,10 @@ Also we can further supplement the above interpretation that forming of IDR is n
 - how many tokens to offset, BERT none, GPT 1, or more than 1
 - the direction of message passing, BERT fully-connected, GPT causal broadcasting
 
+## GPT inference optimization techniques
+
+## CoT
+
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
