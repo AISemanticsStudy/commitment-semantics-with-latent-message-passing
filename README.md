@@ -37,7 +37,7 @@ Because semantics is at the unique position of the crossway of multiple discipli
 And that is exactly what we need to explain AI, as an interdisciplinary field that draws insights and methods from all these disciplines.
 
 ## Pre-requisites
-To fully understand the concepts and ideas presented, we encourage readers to have a minimal understanding of the following topics.
+To better understand the concepts and ideas presented, we encourage readers to have a minimal understanding of the following topics.
 These topics are not strictly required or fully covered by the theory, but they will help readers build natural intuition.
 
 - neural networks, GPT
@@ -46,7 +46,7 @@ These topics are not strictly required or fully covered by the theory, but they 
 - CRDTs (Conflict-free Replicated Data Types)
 - Actor model, SmallTalk, Erlang
 
-To fully understand this theory, you **must** have a solid or a least none-intro level understanding of these topics:
+To **fully** understand this theory, you **must** have a solid or a least none-intro level understanding of these topics:
 - How GPT and BERT are trained and work during inference.
 - What is KVCache in GPT and why only GPT has it but BERT doesn't.
 - Why WAL is important in databases.
@@ -254,9 +254,9 @@ If this decomposition is valid, we could expect significant progress in multiple
 And that is the key contribution of the theory to non-CS disciplines.
 
 ### origin of animal brain
-The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
+The theory support the hypothesis animals with a brain could evolve from a fusion of two or multiple primitive lives.
 With one life providing the IDR representation and the other life providing the message passing mechanism, the fused life form could gain significant advantages in adapting to complex environments, leading to the evolution of more sophisticated brains.
-By contrast, it is much easier for natural selection to evolve one single mechanism, either IDR representation or message passing, but not both.
+From probability perspective much easier for natural selection to evolve one single mechanism, either IDR representation or message passing, but not both at the same time due to the complexity of co-evolution. Further study might facilitate this timothies of how animal brain evolved, by creating quantitative methods to measure to the complexity of DNA as an IDR to represent IDR and message passing mechanism separately or jointly.
 
 ### There is no back-propagation in human brain
 The theory suggests that the human brain or any being definitely does not need back-propagation as a learning mechanism.
