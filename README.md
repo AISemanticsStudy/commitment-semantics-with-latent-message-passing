@@ -58,8 +58,13 @@ Once IDR is a well-established concept in AI research, we could inter-communicat
 We should take caution when interpreting BERT's role in the theory because BERT is the an special case where it contracts GPT both IDR representation and message passing into one single model.
 To demonstrate how BERT fits into the theory, we could conduct the following thought experiment:
 1. BERT with mask sampling fully cover causal mask.
-
 2. Mask only last token.
+
+One property we add to the definition of IDR is actually inspired by BERT.
+We must define the alignment between the IDR representation and causality.
+If the IDR is not generated following the causality of the physical world, the IDR could not be used to represent the physical world accurately.
+This also opens up the possibility of forming IDR that is not linear but aligned with other forms of causality, e.g., hierarchical causality or graph-based causality or even non-causal relationships.
+So in the definition of IDR, we don't require the IDR to be generated from causality but only define it being idempotent and discrete.
 
 Verdict: BERT form lossless IDR representation but the message passing it create during train drifts away too much from the one form from causal masking.
 Here we are not arguing BERT is worse than GPT, but just pointing out the difference of the two models from the theory's perspective.
