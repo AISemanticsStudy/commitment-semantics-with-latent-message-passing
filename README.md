@@ -78,6 +78,8 @@ After the debut of GPT models, a variety of optimization techniques have been pr
 If we look closely at these techniques from the theory's perspective, they can be generally categorized into two groups:
 1. Techniques that optimize the message passing mechanism.
 2. Techniques that modify the IDR representation(KVCache) to a lossy form or drop some of them in exchange for improved efficiency.
+Note that these two groups of techniques are not mutually exclusive, and some techniques may involve both aspects.
+Also we are not making any judgment on the effectiveness of these techniques, but just providing a new perspective to understand or further improve them based on the theory.
 
 ## CoT
 If we view one IDR as a unit of intelligence.
