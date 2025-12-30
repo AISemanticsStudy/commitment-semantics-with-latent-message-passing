@@ -77,7 +77,7 @@ The original author(Shenghang) has been working on build AI training-inference s
 In 2023, his team went through a major reorganization and pivoted to focus on building efficient GPT inference systems.
 And after a while some of the team's engineering efforts shifted to optimize GPT inference with KVCache,
 since that point, he has been constantly boggled by the strange being of GPT's KVCache mechanism.
-In the all the AI models he has worked on before, the inductive bias introduce by the model designers always align with
+In the all the AI models he has worked on before, the inductive bias introduced by the model designers always align with
 how the model learn and how the model run.
 While GPT is the only model he has seen so far that breaks this convention.
 The KVCache stands out as a flashy outlier.
@@ -150,7 +150,7 @@ It perfectly mirror the collapse of wave function in quantum mechanics although 
 ### How about learning?
 After defining IDR as the core concept of intelligence representation, the next natural question is: How does learning happen? If IDRs are stable records, how are they formed and updated?
 
-There are so many ways to answer this question if you don't have a well-defined concept of minimal committable semantic unit
+There are so many ways to answer this question if you don't have a well-defined concept of minimal committable semantic unit.
 But once we have IDR defined, the answer becomes clear and straightforward:
 **Learning is message passing that leads to the formation of new IDRs.**
 
@@ -173,6 +173,13 @@ For instance
 
 also, it is worth to point out that the fully-connected pattern of MLP/CNN is not the same as the fully-connected pattern of BERT(1-N vs. N-N).
 
+### Latent objects and actor model
+In the theory, we introduce the concept of "latent objects" to represent the pair of sender and receiver in latent message passing.
+A latent object is an abstraction that encapsulates both the data and the behavior associated with a particular entity in the system.
+We admit that the concept of latent objects is still very preliminary and needs more formalization and validation.
+At this point, we could only draw a rough analogy between latent objects and actors in the actor model and hope readers
+could form their own understanding and intuition about latent objects after they get familiar with the actor model.
+
 ### Latent message passing is not the only way to form IDR
 Although the theory choose latent message passing as the primary mechanism to explain to form IDR in AI systems like GPT.
 The theory does not exclude other possible mechanisms to form IDR and doesn't claim latent message passing is the only perspective to express the dynamics.
@@ -184,17 +191,17 @@ For IDR, it is very natural to reuse very well-defined mathematical formalizatio
 properties
 (CRDT, WAL, logical clocks).
 But for latent message passing, we don't have such luxury(yet).
-And that why we have to invent a new terminology to describe it as a design pattern fusing hardcoded human source code and probabilistic states.
+And that is why we have to invent a new terminology to describe it as a design pattern fusing hardcoded human source code and probabilistic states.
 By intuition, the mathematical tools to formalize latent message passing should be fields like information theory, category theory, and algebraic topology.
 And these fields are often co-related or even co-inviting concepts and methods with programming language theory and compiler.
-So the original author(Shenghang) choose to leave the formalization of latent message passing as future work and
+So the original author(Shenghang) chose to leave the formalization of latent message passing as future work and
 accept the software design pattern level description and calling it a paradigm is sufficient for now
 (if you are an expert in studying "monoid" or "functors", please reach out to the original author(Shenghang) for collaboration.)
 
 This is also an empirical signal to suggest it is possible to define what is intelligence in a math-solid way,
 but the learning can be of various forms as long as it could produce IDR.
 
-## Object-transfer duality of latent message passing
+### Object-transfer duality of latent message passing
 
 ## revisiting existing AI paradigms and models from the theory's perspective
 
@@ -237,18 +244,18 @@ If the IDR is not generated following the causality of the physical world, the I
 Under our theory, it is not a bug but a feature.
 This opens up the possibility of forming IDR that is not linear but aligned with other forms of causality, e.g., hierarchical causality or graph-based causality or even non-causal relationships.
 So in the definition of IDR, we don't require the IDR to be generated from causality but only define it being idempotent and discrete.
-In the theory, causality is a purely problem of alignment not a problem of dynamics.
+In the theory, causality is purely a problem of alignment not a problem of dynamics.
 It is worth to point out that these are still an open questions and our theory is not yet mature enough to provide a definitive answer on:
 - if idempotent and discrete are the minimal requirements for forming IDR as a representation of atomic unit if we and building models in non-causal domains.
 - if intelligence as a concept itself is strictly coupled with causality.
 The original author(Shenghang) doesn't have a strong conviction on this yet due to the lack of more concrete evidences and tools to validate.
 We believe the falsifiability of these questions is crucial for the theory to be a scientific theory rather than a philosophical one and could foreseen this to be an important direction for future research.
 
-Verdict: BERT form lossless IDR representation but the message passing it create during train drifts away too much from the one form from causal masking.
+Verdict: BERT form lossless IDR representation but the message passing it creates during train drifts away too much from the one form from causal masking.
 Here we are not arguing BERT is worse than GPT, but just pointing out the difference of the two models from the theory's perspective.
 On the contrary, revisiting BERT's unique design from the les of the theory could lead to the conclusion that BERT would be perfect for tasks:
 - can perfectly encode its message passing as a mask distribution.
-- hidden objects require exact same connections to each other.
+- latent objects require exact same connections to each other.
 
 To summarize, BERT can produce IDR, but its IDR is not compatible with the physical world tightly because BERT's message passing is fully-connected rather than causal broadcasting.
 We are not drawing a conclusion casual masking or an autoregressive model is always better but pointing out under the theory, different masking strategies can be explainable purely from distribution alignment.
