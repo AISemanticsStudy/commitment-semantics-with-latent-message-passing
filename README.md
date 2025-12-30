@@ -48,6 +48,7 @@ Under the theory, sleep could be understood as a process equivalent to a GPT con
 And dreaming could be seen as an occasional inference process with a transient state of the message passing pathways being reconfigured.
 
 ### DNA is evolutionary's IDR
+Like KVCache, DNA strictly complies with the properties of IDR representation defined in the theory.
 
 ### Two level of intelligence
 With the theory, we could understand animal intelligence at two levels:
