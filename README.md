@@ -201,7 +201,7 @@ accept the software design pattern level description and calling it a paradigm i
 This is also an empirical signal to suggest it is possible to define what is intelligence in a math-solid way,
 but the learning can be of various forms as long as it could produce IDR.
 
-## Object-transfer duality of latent message passing
+### Object-transfer duality of latent message passing
 
 ## revisiting existing AI paradigms and models from the theory's perspective
 
