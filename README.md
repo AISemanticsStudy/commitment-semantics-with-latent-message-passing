@@ -32,7 +32,7 @@ Form lossy IDR.
 ### CNN
 Doesn't form IDR. Purely message passing.
 ### BERT
-We should take caution when interpreting BERT's role in the theory because BERT is the a a
+We should take caution when interpreting BERT's role in the theory because BERT is the an special case where it contracts GPT both IDR representation and message passing into one single model.
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
