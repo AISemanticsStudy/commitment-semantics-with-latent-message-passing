@@ -29,6 +29,7 @@ These topics are not strictly required or fully covered by the theory, but they 
 
 ### RNN
 Form lossy IDR.
+
 ### MLP and CNN
 Doesn't form IDR. Purely message passing.
 So under the theory, CNN is not a complete model for intelligence.
