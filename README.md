@@ -87,7 +87,12 @@ feels more like a cliched word "emerging".
 
 ## What is it exactly about KVCache that makes it so special?
 
+GPT is not just predicting tokens — it is committing to them, and once committed, they become part of an irreversible symbolic timeline. KVCache is not an optimization; it is the mechanism that turns probability into memory.
 
+And here comes the big question:
+How could we formally define this "committing to tokens" and "irreversible symbolic timeline" in a rigorous way that aligns with well-established computer science concepts?
+
+We need a new concept to capture this unique property of GPT's KVCache, and that concept is what we call **IDR: Idempotent Discrete Record**.
 ## Let's define IDR: Idempotent Discrete Record
 1. Idempotent
 
