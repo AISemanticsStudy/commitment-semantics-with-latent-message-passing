@@ -32,7 +32,7 @@ Form lossy IDR.
 
 ### MLP and CNN
 Doesn't form IDR. Purely message passing.
-So under the theory, MLP orCNN is not a complete model for intelligence.
+So under the theory, MLP or CNN is not a complete model for intelligence.
 Please note that this is not mean to discount their researchers/inventors's contributions to the great success of CNN in computer vision tasks and MLP as a foundational building blocks of AI in general.
 This is also a reminder for us the word choice of "intelligence" to describe IDR could be transitional and context-dependent.
 Once IDR is a well-established concept in AI research, we could inter-communicate more precisely without using general terms like "intelligence".
