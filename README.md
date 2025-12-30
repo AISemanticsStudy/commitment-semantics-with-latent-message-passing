@@ -173,6 +173,7 @@ So here we find GPT to be such an exceptional yet inclusive rare being, is all a
 - a commitment semantic system, aka, database/distributed system
 - a probabilistic sampling system, aka, random number generator
 - a actor system, aka, message passing system
+- a symbolic reasoning system
 
 GPT is so special that it defies all odds yet doesn't contract any.
 And GPT is so simple with both minimum design in training and inference.
