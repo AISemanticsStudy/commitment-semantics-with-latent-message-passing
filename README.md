@@ -120,6 +120,10 @@ With the theory, we could further confirm that the ideas kept being emphasized b
 - time must be a first-class citizen to be studied in a first principle theory of intelligence
 
 ## hypothesis and cross-discipline observations derived from the theory
+Please note that the role of the theory in other disciplines is still very preliminary and speculative.
+We would advise you to use it as a guideline to prune and examine your research thesis
+rather than using it to predict or explain until more concrete evidences and validations are found.
+
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
 With one life providing the IDR representation and the other life providing the message passing mechanism, the fused life form could gain significant advantages in adapting to complex environments, leading to the evolution of more sophisticated brains.
