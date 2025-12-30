@@ -173,6 +173,13 @@ For instance
 
 also, it is worth to point out that the fully-connected pattern of MLP/CNN is not the same as the fully-connected pattern of BERT(1-N vs. N-N).
 
+### Latent objects and actor model
+In the theory, we introduce the concept of "latent objects" to represent the pair of sender and receiver in latent message passing.
+A latent object is an abstraction that encapsulates both the data and the behavior associated with a particular entity in the system.
+We admit that the concept of latent objects is still very preliminary and needs more formalization and validation.
+At this point, we could only draw a rough analogy between latent objects and actors in the actor model and hope readers
+could form their own understanding and intuition about latent objects after they get familiar with the actor model.
+
 ### Latent message passing is not the only way to form IDR
 Although the theory choose latent message passing as the primary mechanism to explain to form IDR in AI systems like GPT.
 The theory does not exclude other possible mechanisms to form IDR and doesn't claim latent message passing is the only perspective to express the dynamics.
