@@ -67,7 +67,7 @@ On the contrary, revisiting BERT's unique design from the les of the theory coul
 - hidden objects require exact same connections to each other.
 
 To summarize, BERT can produce IDR, but its IDR is not compatible with the physical world tightly.
-We are not drawing a conclusion casual masking or an autoregressive model is always better but pointing out under the theory, different masking strategies can be explainable purely from distribution alignment
+We are not drawing a conclusion casual masking or an autoregressive model is always better but pointing out under the theory, different masking strategies can be explainable purely from distribution alignment.
 rather than empirical performance or philosophical take.
 Also we can further supplement the above interpretation that forming of IDR is not coupled with
 - how many tokens to offset, BERT none, GPT 1, or more than 1
