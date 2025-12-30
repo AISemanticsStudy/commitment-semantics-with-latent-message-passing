@@ -13,10 +13,10 @@ Once the theory is more established and widely accepted, we plan to write formal
 
 ## Pre-requisites
 To fully understand the concepts and ideas presented, we encourage readers to have a minimal understanding of the following topics.
-These topics are not strictly required, but they will help readers build natural intuition.
+These topics are not strictly required or , but they will help readers build natural intuition.
 
 - WAL (Write Ahead Log)
-- Consensus algorithms (e.g., Paxos, Raft)
+- Logical Clocks and Consensus algorithms (e.g., Paxos, Raft)
 - CRDTs (Conflict-free Replicated Data Types)
 - SmallTalk and Erlang programming languages
 
