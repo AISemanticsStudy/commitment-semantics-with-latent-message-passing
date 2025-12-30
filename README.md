@@ -29,8 +29,11 @@ These topics are not strictly required or fully covered by the theory, but they 
 
 ### RNN
 Form lossy IDR.
-### CNN
+### MLP and CNN
 Doesn't form IDR. Purely message passing.
+So under the theory, CNN is not a complete model for intelligence.
+Please note that this is not mean to discount their researchers/inventors's contributions to the great success of CNN in computer vision tasks and MLP as a foundational building blocks of AI in general.
+
 ### BERT
 We should take caution when interpreting BERT's role in the theory because BERT is the an special case where it contracts GPT both IDR representation and message passing into one single model.
 To demonstrate how BERT fits into the theory, we could conduct the following thought experiment:
@@ -38,6 +41,10 @@ To demonstrate how BERT fits into the theory, we could conduct the following tho
 2. Mask only last token.
 
 Verdict: BERT form lossless IDR representation but the message passing it create during train drifts away too much from the one form from causal masking.
+Here we are not arguing BERT is worse than GPT, but just pointing out the difference of the two models from the theory's perspective.
+On the contrary, revisiting BERT's unique design from the les of the theory could lead to the conclusion that BERT would be perfect for tasks:
+- can perfectly encode its message passing as a mask distribution.
+-
 
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
