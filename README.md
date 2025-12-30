@@ -131,7 +131,7 @@ two things we take for granted to form intelligence in human world:
 - DNA
 
 ### IDR vs. CRDT
-please refer to [this file](ird-formalization/crdt.md) for the full comparison.
+IDR is a broader concept: all CRDTs are IDRs, but not all IDRs are CRDTs. Please refer to [this file](ird-formalization/crdt.md) for the full comparison.
 ### Logical clocks view of IDR
 please refer to [this file](ird-formalization/logical-clocks.md) for the full formalization.
 ### IDR as WAL and its implications
