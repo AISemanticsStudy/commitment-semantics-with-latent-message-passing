@@ -65,7 +65,6 @@ With this theory, we could well understand the nature selection and mutation pro
 Mutation should not just be emergent useful behavior for the life form, but also should be able to maintain or improve the IDR representation and message passing mechanism of the life form.
 
 ### Difference between stimulant and psychedelic drugs
-
 With this theory, we could understand how stimulant and psychedelic drugs affect human brain differently by studying how do they effect IDR representation and message passing mechanisms.
 
 ## Repository Structure
