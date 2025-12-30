@@ -25,6 +25,11 @@ These topics are not strictly required or fully covered by the theory, but they 
 - revisiting existing AI paradigms and models from the theory's perspective
 - hypothesis and cross-discipline observations derived from the theory
 
+## revisiting existing AI paradigms and models from the theory's perspective
+
+### RNN
+### CNN
+### BERT
 
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
