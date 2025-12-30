@@ -25,6 +25,7 @@ These topics are not strictly required or fully covered by the theory, but they 
 - revisiting existing AI paradigms and models from the theory's perspective
 - hypothesis and cross-discipline observations derived from the theory
 
+## Object-transfer duality of latent message passing
 
 ## revisiting existing AI paradigms and models from the theory's perspective
 
