@@ -44,7 +44,7 @@ One long standing question in neuroscience is how the brain maintains stable mem
 If you are a neuroscientist, you may find it interesting to think about what the IDR representation in human brain could be. And please feel free to share your thoughts and findings with us!
 
 ### Alzheimer's disease and other amnesia behaviors
-With the theory, we could understand Alzheimer's disease as a progressive degradation of the IDR representation.
+With the theory, we could understand amnesia as a progressive degradation of the IDR representation.
 
 ### Sleep and dreaming
 Under the theory, sleep could be understood as a process equivalent to a GPT conducting offline training to update its IDR representation.
