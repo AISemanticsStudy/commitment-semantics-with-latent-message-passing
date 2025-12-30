@@ -54,7 +54,7 @@ These topics are not strictly required or fully covered by the theory, but they 
 - CRDTs (Conflict-free Replicated Data Types)
 - Actor model, SmallTalk, Erlang
 
-To fully understand this theory, you **must** have a solid understanding of these topics:
+To fully understand this theory, you **must** have a solid or a least none-intro level understanding of these topics:
 - How GPT and BERT are trained and work during inference.
 - What is message passing and implications of it.
 - What is commitment semantics in databases and distributed systems.
