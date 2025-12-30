@@ -108,7 +108,7 @@ It is interesting to revisit symbolic AI from the theory's perspective.
 We can further confirm that BERT or GPT is both connectionism AI and symbolic AI under the theory.
 Whether having symbols or if the symbols in the system is generated or learned is the difference between traditional symbolic AI and modern AI models like GPT.
 Because symbols are learned, it is possible to form IDR representation with symbols as the latent objects.
-Traditional symbolic AI can be seen as as an "mounter"
+Traditional symbolic AI can be seen as as an "mounter" designed to hold human hard-coded knowledge and perform symbolic reasoning.
 
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
