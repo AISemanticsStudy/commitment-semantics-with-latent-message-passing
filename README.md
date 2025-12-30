@@ -28,9 +28,11 @@ These topics are not strictly required or fully covered by the theory, but they 
 ## revisiting existing AI paradigms and models from the theory's perspective
 
 ### RNN
+Form lossy IDR.
 ### CNN
+Doesn't form IDR. Purely message passing.
 ### BERT
-
+We should take caution when interpreting BERT's role in the theory because BERT is the a a
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
