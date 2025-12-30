@@ -179,6 +179,9 @@ So the original author(Shenghang) choose to leave the formalization of latent me
 accept the software design pattern level description is sufficient for now.
 (if you are an expert in studying "monoid" or "functors", please reach out to the original author(Shenghang) for collaboration.)
 
+This is also an empirical signal to suggest it is possible to define what is intelligence in a math-solid way,
+but the learning can be of various forms as long as it could produce IDR.
+
 ## Object-transfer duality of latent message passing
 
 ## revisiting existing AI paradigms and models from the theory's perspective
