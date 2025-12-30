@@ -58,6 +58,10 @@ On the contrary, revisiting BERT's unique design from the les of the theory coul
 - can perfectly encode its message passing as a mask distribution.
 - hidden objects require exact same connections to each other.
 
+To summarize, BERT can produce IDR, but its IDR is not compatible with the physical world tightly.
+We are not drawing a conclusion casual masking is always better but pointing out under the theory, different masking strategies can be explainable purely from distribution alignment
+rather than empirical performance or philosophical take.
+
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
