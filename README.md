@@ -20,9 +20,13 @@ Or you might copy paste the full [README.md](README.md) and append this question
 ### Forced metaphors
 Most of the existing explanations of AI models, especially large language models (LLMs) like GPT, tend to focus on surface-level descriptions or analogies that do not capture the underlying computer science inner work of these models.
 The problem with these explanations is not they are using metaphors, but using metaphors that are not well-aligned with the actual hardware and software.
+
 ### Rigid mathematical frameworks
 Many explanations rely heavily on specific mathematical frameworks or formal systems, which can be difficult to understand for non-experts and may not fully capture the complexity of AI models.
 The problem is that those explanations often fail to provide a unified understanding of different AI paradigms and models, leading to confusion and misinterpretation, although they might be mathematically rigorous in one domain. These kinds of explanations usually work very on one specific model or dataset, but fail to generalize to other model design or task.
+
+### Most theories lack reflexivity
+The theory of AI should be able to answer the question: "if building a new model A following the theory you derived from studying B, will A and B be identical or at least partially equivalent?". Spoil alert: our theory could answer "yes" to this question. GPT is already one perfect model design under our theory, although we can't prove it is the only one.
 
 ### But how we should explain AI then?
 The ideal explanation should be able to define AI using well-formed semantics as its micro-foundation,
