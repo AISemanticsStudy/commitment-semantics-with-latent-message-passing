@@ -175,6 +175,7 @@ So here we find GPT to be such an exceptional yet inclusive rare being, is all a
 - a actor system, aka, message passing system
 
 GPT is so special that it defies all odds yet doesn't contract any.
+And GPT is so simple with both minimum design in training and inference.
 
 ## hypothesis and cross-discipline observations derived from the theory
 Please note that the role of the theory in other disciplines is still very preliminary and speculative.
