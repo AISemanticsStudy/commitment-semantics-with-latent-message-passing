@@ -32,7 +32,7 @@ With one life providing the IDR representation and the other life providing the 
 By contrast, it is much easier for natural selection to evolve one single mechanism, either IDR representation or message passing, but not both.
 
 ### There is no back-propagation in human brain
-The theory suggests that the human brain definitely does not need back-propagation as a learning mechanism.
+The theory suggests that the human brain or any being definitely does not need back-propagation as a learning mechanism.
 Using only prune and connect operations on neural linkages (synapses) to adjust the message passing pathways is sufficient for the brain to learn and adapt to new information.
 As long as the linkages maintain a set of IDRs
 
