@@ -114,7 +114,7 @@ Whether having symbols or if the symbols in the system is generated or learned i
 Because symbols are learned, it is possible to form IDR representation with symbols as the latent objects.
 Traditional symbolic AI can be seen as as an "mounter" designed to hold human hard-coded knowledge and perform reasoning by massage passing.
 Actor-model based symbolic AI system (Smalltalk, Erlang) also has the object-transfer durability because reference of an actor itself can be send as messages as well.
-With the theory, we could further confirm that the idea kept being emphasized by Alan Kay, Joe Armstrong
+With the theory, we could further confirm that the ideas kept being emphasized by Alan Kay, Joe Armstrong
 - message passing is the most universal semantic to model the physical world
 - objects are the units of intelligence
 - time must be a first-class citizen in a first principle theory of intelligence
