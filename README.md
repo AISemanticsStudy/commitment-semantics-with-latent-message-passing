@@ -123,6 +123,10 @@ With the theory, we could further confirm that the ideas kept being emphasized b
 Please note that the role of the theory in other disciplines is still very preliminary and speculative.
 We would advise you to use it as a guideline to prune and examine your research thesis
 rather than using it to predict or explain until more concrete evidences and validations are found.
+The core takeaway you can derive from the theory is the separation of intelligence into two orthogonal dimensions:
+- IDR representation: the intelligence unit's representation and how it is being stored
+- message passing mechanism: how the intelligence units communicate and coordinate with each other
+With this separation, we could confidently explore various hypothesis and observations in a much focus and precise manner.
 
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
