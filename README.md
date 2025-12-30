@@ -128,6 +128,8 @@ The core takeaway you can derive from the theory is the separation of intelligen
 - message passing mechanism: how the intelligence units communicate and coordinate with each other
 With this separation in mind, we could confidently explore various hypothesis and observations in a much focus and precise manner.
 For instance, one researcher could presumably focus on studying to locate IDR representation in human brain rather than being distracted by the complexity of neural linkages.
+If this decomposition is valid, we could expect significant progress in multiple disciplines by applying the theory as a guiding principle and further validate the theory itself.
+And that is the key contribution of the theory to non-CS disciplines.
 
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
