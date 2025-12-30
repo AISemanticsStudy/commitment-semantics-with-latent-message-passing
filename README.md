@@ -37,6 +37,8 @@ To demonstrate how BERT fits into the theory, we could conduct the following tho
 1. BERT with mask sampling equivalent or even better than causal mask.
 2. Mask only last token.
 
+Verdict: BERT form lossless IDR representation but the message passing it create during train drifts away too much from the one form from causal masking.
+
 ## hypothesis and cross-discipline observations derived from the theory
 ### origin of animal brain
 The theory support the hypothesis animal with brain could evolve from a fusion of two multiple primitive lives.
