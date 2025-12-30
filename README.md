@@ -153,6 +153,8 @@ With the theory, we could further confirm that the ideas kept being emphasized b
 - objects are the units of intelligence
 - time must be a first-class citizen to be studied in a first principle theory of intelligence
 
+Also we can conclude that a GPT is essentially a massive, probabilistic actor system.
+
 ## hypothesis and cross-discipline observations derived from the theory
 Please note that the role of the theory in other disciplines is still very preliminary and speculative.
 We would advise you to use it as a guideline to prune and examine your research thesis
