@@ -150,6 +150,17 @@ But once we have IDR defined, the answer becomes clear and straightforward:
 Taking a closer look.
 We
 
+### Message passing has duality to neural network's dataflow
+To further clarifying why message passing is the right way to think about learning in AI systems like GPT, we need to examine the relationship between message passing and dataflow in
+neural network training.
+We can think of attention mechanisms as a specific implementation of message passing within neural networks.
+For instance
+- in GPT, the object(token) is broadcasting its latent representation to other objects(tokens) in a communication pattern define by the causal mask.
+- in BERT, the object(token) is broadcasting its latent representation to all other objects(tokens) in a fully-connected pattern.
+- in MLP/CNN, the object(one sample(image)'s feature map) is broadcasting its latent representation to all other objects(labels) in a fully-connected pattern.
+
+also, it is worth to point out that the fully-connected pattern of MLP/CNN is not the same as the fully-connected pattern of BERT(1-N vs. N-N).
+
 ### Latent message passing is not the only way to form IDR
 Although the theory choose latent message passing as the primary mechanism to explain to form IDR in AI systems like GPT.
 The theory does not exclude other possible mechanisms to form IDR and doesn't claim latent message passing is the only perspective to express the dynamics.
