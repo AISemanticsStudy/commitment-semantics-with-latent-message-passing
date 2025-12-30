@@ -45,6 +45,7 @@ If you are a neuroscientist, you may find it interesting to think about what the
 
 ### Sleep and dreaming
 Under the theory, sleep could be understood as a process equivalent to a GPT conducting offline training to update its IDR representation.
+And dreaming could be seen as an occasional inference process with a transient state of the message passing pathways being reconfigured.
 
 ### DNA is evolutionary's IDR
 
