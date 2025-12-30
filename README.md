@@ -166,6 +166,7 @@ By intuition, the mathematical tools to formalize latent message passing should 
 And these fields are only co-related or even co-inviting concepts and methods with programming language theory and compiler.
 So the original author(Shenghang) choose to leave the formalization of latent message passing as future work and
 accept the software design pattern level description is sufficient for now.
+(if you are an expert in studying "monoid" or "functors", please reach out to the original author(Shenghang) for collaboration.)
 
 ## Object-transfer duality of latent message passing
 
