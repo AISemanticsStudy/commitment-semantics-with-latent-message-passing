@@ -56,6 +56,8 @@ With the theory, we could understand animal intelligence at two levels:
 - Brain
 
 ### Nature selection and mutation
+With this theory, we could well understand the nature selection and mutation process in evolution at both a very atomic and macro level.
+One being that mutation should not just be emergent useful behavior for the life form, but also should be able to maintain or improve the IDR representation and message passing mechanism of the life form.
 
 ### Difference between stimulant and psychedelic drugs
 
