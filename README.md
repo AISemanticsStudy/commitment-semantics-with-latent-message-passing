@@ -66,7 +66,8 @@ many informative discussions with the definition of IDR can actually be inspired
 
 By studying BERT's unique design, we could further clarify these two points.
 If the IDR is not generated following the causality of the physical world, the IDR could not be used to represent the physical world accurately.
-This also opens up the possibility of forming IDR that is not linear but aligned with other forms of causality, e.g., hierarchical causality or graph-based causality or even non-causal relationships.
+Under our theory, it is not a bug but a feature.
+This opens up the possibility of forming IDR that is not linear but aligned with other forms of causality, e.g., hierarchical causality or graph-based causality or even non-causal relationships.
 So in the definition of IDR, we don't require the IDR to be generated from causality but only define it being idempotent and discrete.
 In the theory, causality is a purely problem of alignment not a problem of dynamics.
 It is worth to point out that these are still an open questions and our theory is not yet mature enough to provide a definitive answer on:
