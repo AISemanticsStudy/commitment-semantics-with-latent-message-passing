@@ -24,6 +24,9 @@ I have to borrow some trust from you here.
 The most natural and universal angle to explain AI models is through the lens of **semantics**.
 To be more specific, the computational semantics of a modern AI model like GPT/BERT.
 
+The ideal explanation should be able to define AI using well-formed semantics as its micro-foundation,
+and derive the dynamics of as a macro landscape to overview how an AI model works and why it could work.
+
 ## Why project not paper?
 The unique view of the theory being developed here follows and uses the concepts and wording wildly used in programming languages, distributed systems, and databases, which makes the theory more accessible to researchers from these fields, and also opens up more engineering-focused practitioners to understand the concepts.
 Also we don't want to write a paper for the sake of writing a paper, that forcing the core subject of this theory, **semantics**, into the rigid format of one specific mathematical framework or formal system.
