@@ -36,16 +36,6 @@ To be more specific, the computational semantics of a modern AI model like GPT/B
 Because semantics is at the unique position of the crossway of multiple disciplines including computer science, cognitive science, linguistics, and philosophy.
 And that is exactly what we need to explain AI, as an interdisciplinary field that draws insights and methods from all these disciplines.
 
-## Why project not paper?
-The unique view of the theory being developed here follows and uses the concepts and wording wildly used in programming languages, distributed systems, and databases, which makes the theory more accessible to researchers from these fields, and also opens up more engineering-focused practitioners to understand the concepts.
-Also we don't want to write a paper for the sake of writing a paper, that forcing the core subject of this theory, **semantics**, into the rigid format of one specific mathematical framework or formal system.
-So we decided to use a tone between system design documents and semi-philosophical essays to present the ideas and concepts of the theory.
-
-We would like everyone to be a part of the open research process, and we believe that sharing the ideas in an informal manner first will help us gather feedback and improve the theory before formalizing it into academic papers.
-Why this is important? We would like to make the theory as theoretical and as structural as possible, so that it can be easily applied to various AI paradigms and models. That's why it is crucial to have a wide range of feedback from different perspectives, especially from those who are working on developing AI inference systems and training new models. We appreciate any feedback if you apply the theory and find interesting results or new methodologies derived from it.
-
-Once the theory is more established and widely accepted, we plan to write formal papers to present the findings in a traditional academic format and submit them to well-suited tracks of conferences and journals of different fields and disciplines.
-
 ## Pre-requisites
 To fully understand the concepts and ideas presented, we encourage readers to have a minimal understanding of the following topics.
 These topics are not strictly required or fully covered by the theory, but they will help readers build natural intuition.
@@ -241,6 +231,16 @@ that the semantics of intelligence and learning.
 
 ## About this repository
 This repository contains the code and resources for the research project
+
+## Why project not paper?
+The unique view of the theory being developed here follows and uses the concepts and wording wildly used in programming languages, distributed systems, and databases, which makes the theory more accessible to researchers from these fields, and also opens up more engineering-focused practitioners to understand the concepts.
+Also we don't want to write a paper for the sake of writing a paper, that forcing the core subject of this theory, **semantics**, into the rigid format of one specific mathematical framework or formal system.
+So we decided to use a tone between system design documents and semi-philosophical essays to present the ideas and concepts of the theory.
+
+We would like everyone to be a part of the open research process, and we believe that sharing the ideas in an informal manner first will help us gather feedback and improve the theory before formalizing it into academic papers.
+Why this is important? We would like to make the theory as theoretical and as structural as possible, so that it can be easily applied to various AI paradigms and models. That's why it is crucial to have a wide range of feedback from different perspectives, especially from those who are working on developing AI inference systems and training new models. We appreciate any feedback if you apply the theory and find interesting results or new methodologies derived from it.
+
+Once the theory is more established and widely accepted, we plan to write formal papers to present the findings in a traditional academic format and submit them to well-suited tracks of conferences and journals of different fields and disciplines.
 
 ## Repository Structure
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
