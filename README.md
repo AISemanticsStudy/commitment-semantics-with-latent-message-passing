@@ -58,6 +58,8 @@ With the theory, we could understand animal intelligence at two levels:
 - DNA
 - Brain
 
+We could also further create new categories classifying lives by having how many levels of intelligence they have and to confirm if plants only have one.
+
 ### Nature selection and mutation
 With this theory, we could well understand the nature selection and mutation process in evolution at both a very atomic and macro level.
 Mutation should not just be emergent useful behavior for the life form, but also should be able to maintain or improve the IDR representation and message passing mechanism of the life form.
