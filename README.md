@@ -4,9 +4,10 @@ Commitment Semantics with Latent Message Passing, is a theory try to formalize c
 
 ## TLDR
 You might post a question like to ChatGPT or any other LLM:
-if someone says
-"intelligence is idempotent discrete record, learning is message passing",
-what does it mean?
+
+> if someone says
+> "intelligence is idempotent discrete record, learning is message passing",
+> what does it mean?
 
 Or you might copy paste the full README.md content to ChatGPT and ask any question you find interesting.
 The answer you get might be very surprising yet compelling.
