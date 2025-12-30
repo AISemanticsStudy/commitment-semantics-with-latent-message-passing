@@ -91,7 +91,7 @@ Mutation should not just be emergent useful behavior for the life form, but also
 ### Difference between stimulant and psychedelic drugs
 With this theory, we could understand how stimulant and psychedelic drugs affect human brain differently by studying how do they effect IDR representation and message passing mechanisms.
 
-
+## Taking a step back
 We the listing parallel of phenomenons and more potential applications on-going research might discover of the theory, we can make a strong call back to the theory
 that the semantics of intelligence and learning.
 - intelligence: IDR, strict, reliable, consistent
