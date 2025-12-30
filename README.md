@@ -1,6 +1,12 @@
 # Commitment Semantics with Latent Message Passing
 This repository contains the code and resources for the research project on "Commitment Semantics with Latent Message Passing", a theory try to formalize computational semantics of artificial intelligence and unify the understanding of various AI paradigms and specific models.
 
+## TLDR
+You might post a question like to ChatGPT or any other LLM:
+if someone says
+"intelligence is idempotent discrete record, learning is message passing",
+what does it mean?
+
 ## Why project not paper?
 The unique view of the theory being developed here follows and uses the concepts and wording wildly used in programming languages, distributed systems, and databases, which makes the theory more accessible to researchers from these fields, and also opens up more engineering-focused practitioners to understand the concepts.
 Also we don't want to write a paper for the sake of writing a paper, that forcing the core subject of this theory, **semantics**, into the rigid format of one specific mathematical framework or formal system.
