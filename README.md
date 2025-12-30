@@ -157,6 +157,11 @@ But once we have IDR defined, the answer becomes clear and straightforward:
 <!-- the original author(Shenghang) is just assigned with critical task by CTO, and will be absent for a while to finish the message passing part -->
 <!-- but at this point the theory should be competed enough at its first published form -->
 
+### Back-propagated Message Passing
+BP, as the dominant learning mechanism in modern AI models, can be reinterpreted through the lens of message passing.
+In this view, BP is a specialized form of message passing that propagates error signals backward through the network to update weights.
+However, BP alone does not directly form IDRs; instead, it facilitates the conditions under which IDRs can be formed during forward passes.
+
 ### Message passing has duality to neural network's dataflow
 To further clarifying why message passing is the right way to think about learning in AI systems like GPT, we need to examine the relationship between message passing and dataflow in
 neural network training.
