@@ -70,7 +70,8 @@ One confusing aspect of modern AI models like GPT is the presence of both random
 On one hand, these models are often described as probabilistic systems that generate outputs based on learned probability distributions.
 On the other hand, they can also exhibit deterministic behavior when given the same input and random seed.
 The strange mixture of behaviors hold people from studying it purely as a probabilistic system like random number generator or a deterministic system like database.
-But once the concept of IDR is formalized, you would find the
+But once the concept of IDR is formalized, you would find GPT is actually a commitment semantic system disguised as a probabilistic sampling system.
+It perfectly mirror the collapse of wave function in quantum mechanics although there is no proof to support GPT is quantum.
 
 
 ## Object-transfer duality of latent message passing
