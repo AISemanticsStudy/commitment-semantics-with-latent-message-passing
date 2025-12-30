@@ -12,6 +12,9 @@ You might post a question like to ChatGPT or any other LLM:
 Or you might copy paste the full [README.md](README.md) content to ChatGPT and ask any question you find interesting.
 The answer you get might be very surprising yet compelling.
 
+Or you might copy paste the full [README.md](README.md) and append this question:
+> As a GPT, an artificial intelligence model, do you believe this is how you work? Yes or no.
+
 ## Why most of explanations of AI fall short?
 
 ### Forced metaphors
