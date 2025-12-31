@@ -169,6 +169,22 @@ For people program in Erlang/Elixir everyday, it is obvious that a stochastic ac
 But for DB research, it is not a area of interest to study how to build a programmable distributed system that could maintain stable state and behavior over time but
 only to ensure the data consistency and durability at commit or rollback.
 
+| Without Actor | With Actor |
+| ------------- | ---------- |
+| State is passive | State is self-consistent |
+| Invocation is function | Interaction is message |
+| Time is implicit | Time is a first-class citizen |
+| Semantics are external | Semantics are inside the object |
+| Weak explainability | Explainability comes from the protocol |
+
+AI, as a phenomenon that blurs the boundary between software and data, requires us to bridge this cognitive gap.
+It has to be either explainable by purely mathematical formalization or explained by its behavior be controlled with a definitive pattern.
+The mathematical formalization falls short because there is always room mathematical formalization can't cover
+in what kind of data, and what kind of distribution an AI system is using to maintain its state and behavior.
+So the theory's capability to explain what is AI, comes from the actor world view that it is possible to identify
+the programmability of a stochastic system like an actor model runtime, or, all the neural networks.
+And we would regard programmability as a form of being self-consistent, and being explainable from the **protocol** level.
+
 ### Back-propagated Message Passing
 BP, as the dominant learning mechanism in modern AI models, can be reinterpreted through the lens of message passing.
 In this view, BP is a specialized form of message passing that propagates error signals backward through the network to update weights.
