@@ -161,6 +161,14 @@ But once we have IDR defined, the answer becomes clear and straightforward:
 <!-- the original author(Shenghang) is just assigned with critical task by CTO, and will be absent for a while to finish the message passing part -->
 <!-- but at this point the theory should be competed enough at its first published form -->
 
+### Why actor is the **key** concept makes it possible to explain AI
+There is a nuanced yet unnoticeable cognitive gap in the theory of database and actor model.
+Although both theories share similar concepts and terminologies when it comes to distributed systems.
+But there is a unspoken yet striking difference between them: DB theory doesn't treat programmability as a first-class research object while actor model does.
+For people program in Erlang/Elixir everyday, it is obvious that a stochastic actor system can maintain stable state and behavior over time.
+But for DB research, it is not a area of interest to study how to build a programmable distributed system that could maintain stable state and behavior over time but
+only to ensure the data consistency and durability at commit or rollback.
+
 ### Back-propagated Message Passing
 BP, as the dominant learning mechanism in modern AI models, can be reinterpreted through the lens of message passing.
 In this view, BP is a specialized form of message passing that propagates error signals backward through the network to update weights.
