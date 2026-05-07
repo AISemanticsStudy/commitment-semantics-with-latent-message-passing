@@ -234,6 +234,8 @@ but the learning can be of various forms as long as it could produce IDR.
 ## revisiting existing AI paradigms and models from the theory's perspective
 
 ### Residual
+Residual connections preserve the previous latent state while allowing new messages to be added on top of it.
+Under the theory, residual is a structural hint that learning prefers incremental updates over rewriting the whole representation.
 
 ### Bottleneck and level of features
 If neural networks are of the message passing paradigm, we can safely use information bottleneck theory to analyze the level of features being learned at different layers of the network.
