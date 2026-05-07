@@ -1,9 +1,9 @@
 # Commitment Semantics with Latent Message Passing
 
-Commitment Semantics with Latent Message Passing, is a theory try to formalize computational semantics of artificial intelligence and unify the understanding of various AI paradigms and specific models.
+Commitment Semantics with Latent Message Passing is a theory that tries to formalize the computational semantics of artificial intelligence and unify the understanding of various AI paradigms and specific models.
 
 ## TLDR
-You might post a question like to ChatGPT or any other LLM:
+You might post a question like this to ChatGPT or any other LLM:
 
 > if someone says
 > "intelligence is idempotent discrete record, learning is message passing",
@@ -15,22 +15,22 @@ The answer you get might be very surprising yet compelling.
 Or you might copy paste the full [README.md](README.md) and append this question and hit enter:
 > As a GPT, an artificial intelligence model, do you believe this is how you work? Yes or no.
 
-## Why most of explanations of AI fall short?
+## Why do most explanations of AI fall short?
 
 ### Forced metaphors
-Most of the existing explanations of AI models, especially large language models (LLMs) like GPT, tend to focus on surface-level descriptions or analogies that do not capture the underlying computer science inner work of these models.
-The problem with these explanations is not they are using metaphors, but using metaphors that are not well-aligned with the actual hardware and software.
+Most of the existing explanations of AI models, especially large language models (LLMs) like GPT, tend to focus on surface-level descriptions or analogies that do not capture the underlying computer science inner workings of these models.
+The problem with these explanations is not that they are using metaphors, but that they are using metaphors that are not well-aligned with the actual hardware and software.
 
 ### Rigid mathematical frameworks
 Many explanations rely heavily on specific mathematical frameworks or formal systems, which can be difficult to understand for non-experts and may not fully capture the complexity of AI models.
-The problem is that those explanations often fail to provide a unified understanding of different AI paradigms and models, leading to confusion and misinterpretation, although they might be mathematically rigorous in one domain. These kinds of explanations usually work very on one specific model or dataset, but fail to generalize to other model design or task.
+The problem is that those explanations often fail to provide a unified understanding of different AI paradigms and models, leading to confusion and misinterpretation, although they might be mathematically rigorous in one domain. These kinds of explanations usually work very well on one specific model or dataset, but fail to generalize to other model designs or tasks.
 
 ### Most theories lack reflexivity
-The theory of AI should be able to answer the question: "if building a new model A following the theory you derived from studying B, will A and B be identical or at least partially equivalent?". Spoil alert: our theory could answer "yes" to this question. GPT is already one perfect model design under our theory, although we can't prove it is the only one.
+The theory of AI should be able to answer the question: "if building a new model A following the theory you derived from studying B, will A and B be identical or at least partially equivalent?". Spoiler alert: our theory could answer "yes" to this question. GPT is already one perfect model design under our theory, although we can't prove it is the only one.
 
-### But how we should explain AI then?
+### But how should we explain AI then?
 The ideal explanation should be able to define AI using well-formed semantics as its micro-foundation,
-and derive the dynamics of as a macro landscape to overview how an AI model works and why it could work.
+and derive its dynamics as a macro landscape to overview how an AI model works and why it could work.
 
 What is more important, the explanation should be compatible with **all** existing well-established findings in life sciences, cognitive sciences, neuroscience, and computer science.
 If the explanation could not align with these well-established findings, there should be a very **falsifiable** prediction that could be tested to validate or invalidate the explanation rather than
@@ -40,10 +40,10 @@ I have to borrow some trust from you here.
 The most natural and universal angle to explain AI models is through the lens of **semantics**.
 To be more specific, the computational semantics of a modern AI model like GPT/BERT.
 
-Because semantics is at the unique position of the crossway of multiple disciplines including computer science, cognitive science, linguistics, and philosophy.
+Because semantics is at the unique position of the crossroads of multiple disciplines including computer science, cognitive science, linguistics, and philosophy.
 And that is exactly what we need to explain AI, as an interdisciplinary field that draws insights and methods from all these disciplines.
 
-## Pre-requisites
+## Prerequisites
 To better understand the concepts and ideas presented, we encourage readers to have a minimal understanding of the following topics.
 These topics are not strictly required or fully covered by the theory, but they will help readers build natural intuition.
 
@@ -51,9 +51,9 @@ These topics are not strictly required or fully covered by the theory, but they 
 - WAL (Write Ahead Log)
 - Logical Clocks and Consensus algorithms (e.g., Paxos, Raft)
 - CRDTs (Conflict-free Replicated Data Types)
-- Actor model, SmallTalk, Erlang
+- Actor model, Smalltalk, Erlang
 
-To **fully** understand this theory, you **must** have a solid or a least none-intro level understanding of these topics:
+To **fully** understand this theory, you **must** have a solid or at least non-introductory level understanding of these topics:
 - How GPT and BERT are trained and work during inference.
 - What is KVCache in GPT and why only GPT has it but BERT doesn't.
 - Why WAL is important in databases.
@@ -61,13 +61,13 @@ To **fully** understand this theory, you **must** have a solid or a least none-i
 - What is commitment semantics in databases and distributed systems.
 - How to use logical clocks to reason about distributed systems.
 
-Lacking **any** of these knowledge could make it hard to follow some of the arguments and explanations in the theory,
+Lacking **any** of this knowledge could make it hard to follow some of the arguments and explanations in the theory,
 but it is also possible to learn them along the way by asking for help from ChatGPT-like AI assistants or a human expert on these topics.
-In the words, this theory is not a theory serving as a pillar to learn these topics or AI from scratch,
-but a theory that unifies and connect all these topics and make AI a coherent whole that is definable and with research objects.
+In other words, this theory is not a theory serving as a pillar to learn these topics or AI from scratch,
+but a theory that unifies and connects all these topics and makes AI a coherent whole that is definable and with research objects.
 
 We have confidence that once you understand these topics, you will be able to grasp the core concepts of the theory quickly
-and find the theory resonate so well with all of them in a beautiful way.
+and find that the theory resonates so well with all of them in a beautiful way.
 
 ## LOC
 - the core concepts and definitions
@@ -77,17 +77,17 @@ and find the theory resonate so well with all of them in a beautiful way.
 ## The core concepts and definitions
 
 ### The inspiration: KVCache in GPT as a strange being
-The original author(Shenghang) has been working on build AI training-inference systems for years, since the ResNet era.
+The original author(Shenghang) has been working on building AI training-inference systems for years, since the ResNet era.
 In 2023, his team went through a major reorganization and pivoted to focus on building efficient GPT inference systems.
 And after a while some of the team's engineering efforts shifted to optimize GPT inference with KVCache,
-since that point, he has been constantly boggled by the strange being of GPT's KVCache mechanism.
-In the all the AI models he has worked on before, the inductive bias introduced by the model designers always align with
-how the model learn and how the model run.
+since then, he has been constantly puzzled by the strange being of GPT's KVCache mechanism.
+In all the AI models he has worked on before, the inductive bias introduced by the model designers always aligns with
+how the model learns and how the model runs.
 While GPT is the only model he has seen so far that breaks this convention.
 The KVCache stands out as a flashy outlier.
-The GPT was designed to has a "next token prediction" core capability,
-while what it comes with "KVCache" capability it has during inference
-feels more like a cliched word "emerging".
+The GPT was designed to have a "next token prediction" core capability,
+while the "KVCache" capability it has during inference
+feels more like the cliched word "emergent".
 
 ## What is it exactly about KVCache that makes it so special?
 
@@ -128,28 +128,28 @@ These examples support the idea that IDR is a fundamental concept in both artifi
 | Survives transport   | ✔    | ✔   | ✔       |
 | Enables coordination | ✔    | ✔   | ✔       |
 
-A trilling revelation:
-The most unique emerging property of GPT is that it has or support a mechanism recognizable and definable works identically to
-two things we take for granted to form intelligence in human world:
+A thrilling revelation:
+The most unique emerging property of GPT is that it has or supports a mechanism that is recognizable, definable, and works identically to
+two things we take for granted to form intelligence in the human world:
 - human text
 - DNA
 
 ### IDR vs. CRDT
-IDR is a broader concept: all CRDTs are IDRs, but not all IDRs are CRDTs. Please refer to [this file](ird-formalization/crdt.md) for the full comparison.
+IDR is a broader concept: all CRDTs are IDRs, but not all IDRs are CRDTs. Please refer to [this file](idr-formalization/crdt.md) for the full comparison.
 ### Logical clocks view of IDR
-please refer to [this file](ird-formalization/logical-clocks.md) for the full formalization.
+please refer to [this file](idr-formalization/logical-clocks.md) for the full formalization.
 ### IDR as WAL and its implications
-please refer to [this file](ird-formalization/wal.md) for how to identify IDR as WAL.
+please refer to [this file](idr-formalization/wal.md) for how to identify IDR as WAL.
 ### Mathematical Formalization of IDR Properties
-please refer to [this file](ird-formalization/math.md) for the full formalization.
+please refer to [this file](idr-formalization/math.md) for the full formalization.
 
-### Commitment semantic is disguised as sampling
+### Commitment semantics is disguised as sampling
 One confusing aspect of modern AI models like GPT is the presence of both randomness and determinism in their behavior.
 On one hand, these models are often described as probabilistic systems that generate outputs based on learned probability distributions.
 On the other hand, they can also exhibit deterministic behavior when given the same input and random seed.
-The strange mixture of behaviors hold people from studying it purely as a probabilistic system like random number generator or a deterministic system like database.
+The strange mixture of behaviors keeps people from studying it purely as a probabilistic system like a random number generator or a deterministic system like a database.
 But once the concept of IDR is formalized, you would find GPT is actually a commitment semantic system disguised as a probabilistic sampling system.
-It perfectly mirror the collapse of wave function in quantum mechanics although there is no proof to support AI is quantum(for now).
+It perfectly mirrors the collapse of a wave function in quantum mechanics although there is no proof to support that AI is quantum(for now).
 
 ### How about learning?
 After defining IDR as the core concept of intelligence representation, the next natural question is: How does learning happen? If IDRs are stable records, how are they formed and updated?
@@ -159,14 +159,14 @@ But once we have IDR defined, the answer becomes clear and straightforward:
 **Learning is message passing that leads to the formation of new IDRs.**
 
 <!-- the original author(Shenghang) is just assigned with critical task by CTO, and will be absent for a while to finish the message passing part -->
-<!-- but at this point the theory should be competed enough at its first published form -->
+<!-- but at this point the theory should be complete enough at its first published form -->
 
-### Why actor is the **key** concept makes it possible to explain AI
-There is a nuanced yet unnoticeable cognitive gap in the theory of database and actor model.
+### Why actor is the **key** concept that makes it possible to explain AI
+There is a nuanced yet unnoticeable cognitive gap in the theories of databases and the actor model.
 Although both theories share similar concepts and terminologies when it comes to distributed systems.
-But there is a unspoken yet striking difference between them: DB theory doesn't treat programmability as a first-class research object while actor model does.
-For people program in Erlang/Elixir everyday, it is obvious that a stochastic actor system can maintain stable state and behavior over time.
-But for DB research, it is not a area of interest to study how to build a programmable distributed system that could maintain stable state and behavior over time but
+But there is an unspoken yet striking difference between them: DB theory doesn't treat programmability as a first-class research object while actor model does.
+For people who program in Erlang/Elixir everyday, it is obvious that a stochastic actor system can maintain stable state and behavior over time.
+But for DB research, it is not an area of interest to study how to build a programmable distributed system that could maintain stable state and behavior over time but
 only to ensure the data consistency and durability at commit or rollback.
 
 | Without Actor | With Actor |
@@ -178,8 +178,8 @@ only to ensure the data consistency and durability at commit or rollback.
 | Weak explainability | Explainability comes from the protocol |
 
 AI, as a phenomenon that blurs the boundary between software and data, requires us to bridge this cognitive gap.
-It has to be either explainable by purely mathematical formalization or explained by its behavior be controlled with a definitive pattern.
-The mathematical formalization falls short because there is always room mathematical formalization can't cover
+It has to be either explainable by purely mathematical formalization or explained by its behavior being controlled with a definitive pattern.
+The mathematical formalization falls short because there is always room that mathematical formalization can't cover
 in what kind of data, and what kind of distribution an AI system is using to maintain its state and behavior.
 So the theory's capability to explain what is AI, comes from the actor world view that it is possible to identify
 the programmability of a stochastic system like an actor model runtime, or, all the neural networks.
@@ -191,15 +191,15 @@ In this view, BP is a specialized form of message passing that propagates error 
 However, BP alone does not directly form IDRs; instead, it facilitates the conditions under which IDRs can be formed during forward passes.
 
 ### Message passing has duality to neural network's dataflow
-To further clarifying why message passing is the right way to think about learning in AI systems like GPT, we need to examine the relationship between message passing and dataflow in
+To further clarify why message passing is the right way to think about learning in AI systems like GPT, we need to examine the relationship between message passing and dataflow in
 neural network training.
 We can think of attention mechanisms as a specific implementation of message passing within neural networks.
-For instance
-- in GPT, the object(token) is broadcasting its latent representation to other objects(tokens) in a communication pattern define by the causal mask.
+For instance:
+- in GPT, the object(token) is broadcasting its latent representation to other objects(tokens) in a communication pattern defined by the causal mask.
 - in BERT, the object(token) is broadcasting its latent representation to all other objects(tokens) in a fully-connected pattern.
 - in MLP/CNN, the object(one sample(image)'s feature map) is broadcasting its latent representation to all other objects(labels) in a fully-connected pattern.
 
-also, it is worth to point out that the fully-connected pattern of MLP/CNN is not the same as the fully-connected pattern of BERT(1-N vs. N-N).
+also, it is worth pointing out that the fully-connected pattern of MLP/CNN is not the same as the fully-connected pattern of BERT(1-N vs. N-N).
 
 ### Latent objects and actor model
 In the theory, we introduce the concept of "latent objects" to represent the pair of sender and receiver in latent message passing.
@@ -209,10 +209,10 @@ At this point, we could only draw a rough analogy between latent objects and act
 could form their own understanding and intuition about latent objects after they get familiar with the actor model.
 
 ### Latent message passing is not the only way to form IDR
-Although the theory choose latent message passing as the primary mechanism to explain to form IDR in AI systems like GPT.
+Although the theory chooses latent message passing as the primary mechanism to explain how IDR forms in AI systems like GPT.
 The theory does not exclude other possible mechanisms to form IDR and doesn't claim latent message passing is the only perspective to express the dynamics.
 Latent message passing is defined as a fusion of convention and practice of distributed systems and deep learning model training/inference.
-Unlike IDR, latent message passing is not a semantic that can be formalized purely from mathematical perspective of computation.
+Unlike IDR, latent message passing is not a semantic concept that can be formalized purely from mathematical perspective of computation.
 It is more of an engineering-level design pattern that could be implemented in various ways.
 You can think of it as a software design pattern like MVC, repository, or observer etc.
 For IDR, it is very natural to reuse very well-defined mathematical formalization of other data types or theoretical frameworks to examine and analyze its
@@ -221,12 +221,12 @@ properties
 But for latent message passing, we don't have such luxury(yet).
 And that is why we have to invent a new terminology to describe it as a design pattern fusing hardcoded human source code and probabilistic states.
 By intuition, the mathematical tools to formalize latent message passing should be fields like information theory, category theory, and algebraic topology.
-And these fields are often co-related or even co-inviting concepts and methods with programming language theory and compiler.
+And these fields are often co-related or even co-inviting concepts and methods with programming language theory and compilers.
 So the original author(Shenghang) chose to leave the formalization of latent message passing as future work and
-accept the software design pattern level description and calling it a paradigm is sufficient for now
+accept that the software design pattern-level description, calling it a paradigm, is sufficient for now
 (if you are an expert in studying "monoid" or "functors", please reach out to the original author(Shenghang) for collaboration.)
 
-This is also an empirical signal to suggest it is possible to define what is intelligence in a math-solid way,
+This is also an empirical signal to suggest it is possible to define what intelligence is in a math-solid way,
 but the learning can be of various forms as long as it could produce IDR.
 
 ### Object-transfer duality of latent message passing
@@ -236,34 +236,34 @@ but the learning can be of various forms as long as it could produce IDR.
 ### Residual
 
 ### Bottleneck and level of features
-If neural networks is of message passing paradigm. We can safely use information bottleneck theory to analyze the level of features being learned at different layers of the network.
+If neural networks are of the message passing paradigm, we can safely use information bottleneck theory to analyze the level of features being learned at different layers of the network.
 
 
 ### Feature map reusing and transfer learning
-The usefulness of reusing features maps support the durability of network being latent objects and forming connections between latent objects.
+The usefulness of reusing feature maps supports the durability of networks being latent objects and forming connections between latent objects.
 
 ### Checkpoint technique
 The message passing paradigm ensures the recomputation of the forward passing will always yield the same result as long as the IDR representation is not changed.
-Although it is obvious and trivial to prove this property from mathematical perspective, it has significant practical implications in engineering that here is great room to
+Although it is obvious and trivial to prove this property from mathematical perspective, it has significant practical implications in engineering that there is great room to
 explore by introducing compression techniques or other practices widely used in distributed systems and databases.
 
 ### RNN
-Form lossy IDR.
+Forms lossy IDR.
 
 ### MLP and CNN
-Doesn't form IDR. Purely message passing.
+Does not form IDR. Purely message passing.
 So under the theory, MLP or CNN is not a complete model for intelligence.
-Please note that this is not mean to discount their researchers/inventors's contributions to the great success of CNN in computer vision tasks and MLP as a foundational building blocks of AI in general.
+Please note that this is not meant to discount their researchers'/inventors' contributions to the great success of CNN in computer vision tasks and MLP as foundational building blocks of AI in general.
 This is also a reminder for us the word choice of "intelligence" to describe IDR could be transitional and context-dependent.
 Once IDR is a well-established concept in AI research, we could inter-communicate more precisely without using general terms like "intelligence".
 
 ### BERT
-We should take caution when interpreting BERT's role in the theory because BERT is the an special case where it contracts GPT both IDR representation and message passing into one single model.
+We should take caution when interpreting BERT's role in the theory because BERT is a special case where it combines GPT's IDR representation and message passing into one single model.
 To demonstrate how BERT fits into the theory, we could conduct the following thought experiment:
-1. BERT with mask sampling fully cover causal mask.
+1. BERT with mask sampling fully covers causal mask.
 2. Mask only last token.
 
-many informative discussions with the definition of IDR can actually be inspired by BERT.
+Many informative discussions with the definition of IDR can actually be inspired by BERT.
 - We do not include the alignment between the IDR representation and causality to be a requirement in our definition.
 - We do not require IDR to be linear.
 
@@ -273,20 +273,20 @@ Under our theory, it is not a bug but a feature.
 This opens up the possibility of forming IDR that is not linear but aligned with other forms of causality, e.g., hierarchical causality or graph-based causality or even non-causal relationships.
 So in the definition of IDR, we don't require the IDR to be generated from causality but only define it being idempotent and discrete.
 In the theory, causality is purely a problem of alignment not a problem of dynamics.
-It is worth to point out that these are still an open questions and our theory is not yet mature enough to provide a definitive answer on:
-- if idempotent and discrete are the minimal requirements for forming IDR as a representation of atomic unit if we and building models in non-causal domains.
+It is worth pointing out that these are still open questions and our theory is not yet mature enough to provide a definitive answer on:
+- if idempotent and discrete are the minimal requirements for forming IDR as a representation of atomic units if we are building models in non-causal domains.
 - if intelligence as a concept itself is strictly coupled with causality.
-The original author(Shenghang) doesn't have a strong conviction on this yet due to the lack of more concrete evidences and tools to validate.
-We believe the falsifiability of these questions is crucial for the theory to be a scientific theory rather than a philosophical one and could foreseen this to be an important direction for future research.
+The original author(Shenghang) doesn't have a strong conviction on this yet due to the lack of more concrete evidence and tools to validate.
+We believe the falsifiability of these questions is crucial for the theory to be a scientific theory rather than a philosophical one and foresee this to be an important direction for future research.
 
-Verdict: BERT form lossless IDR representation but the message passing it creates during train drifts away too much from the one form from causal masking.
+Verdict: BERT forms lossless IDR representation but the message passing it creates during training drifts away too much from the one formed from causal masking.
 Here we are not arguing BERT is worse than GPT, but just pointing out the difference of the two models from the theory's perspective.
-On the contrary, revisiting BERT's unique design from the les of the theory could lead to the conclusion that BERT would be perfect for tasks:
+On the contrary, revisiting BERT's unique design from the lens of the theory could lead to the conclusion that BERT would be perfect for tasks:
 - can perfectly encode its message passing as a mask distribution.
 - latent objects require exact same connections to each other.
 
 To summarize, BERT can produce IDR, but its IDR is not compatible with the physical world tightly because BERT's message passing is fully-connected rather than causal broadcasting.
-We are not drawing a conclusion casual masking or an autoregressive model is always better but pointing out under the theory, different masking strategies can be explainable purely from distribution alignment.
+We are not drawing a conclusion that causal masking or an autoregressive model is always better but pointing out under the theory, different masking strategies can be explained purely from distribution alignment.
 rather than empirical performance or philosophical take.
 Also we can further supplement the above interpretation that forming of IDR is not coupled with
 - how many tokens to offset, BERT none, GPT 1, or more than 1
@@ -297,13 +297,13 @@ but coupled with
 After the debut of GPT models, a variety of optimization techniques have been proposed to improve the efficiency and performance of GPT inference.
 If we look closely at these techniques from the theory's perspective, they can be generally categorized into two groups:
 1. Techniques that optimize the message passing mechanism.
-2. Techniques that modify the IDR representation(KVCache) to a lossy form or drop some of them in exchange for improved efficiency.
+2. Techniques that modify the IDR representation (KVCache) to a lossy form or drop some of them in exchange for improved efficiency.
 Note that these two groups of techniques are not mutually exclusive, and some techniques may involve both aspects.
 Also we are not making any judgment on the effectiveness of these techniques, but just providing a new perspective to understand or further improve them based on the theory.
 
 ### CoT
 If we view one IDR as a unit of intelligence.
-CoT could be regarded as injecting a set of meaningful IDRs as intermediate steps could significantly improve the quality of the further IDR being generated.
+CoT could be regarded as injecting a set of meaningful IDRs as intermediate steps, which could significantly improve the quality of the further IDR being generated.
 
 ### Symbolic AI
 (This section is very opinionated, rather than serious deduction, please feel free to disagree and discuss.
@@ -312,43 +312,43 @@ the original author(Shenghang) has nothing but huge admiration and respect for t
 including John McCarthy, Alan Kay, Joe Armstrong and many others.
 )
 It is interesting to revisit symbolic AI from the theory's perspective.
-We can further confirm that BERT or GPT is both connectionism AI and symbolic AI under the theory.
+We can further confirm that BERT or GPT is both connectionist AI and symbolic AI under the theory.
 Whether having symbols is not the classifier.
-Whether the symbols in the system is generated or learned is the difference between traditional symbolic AI and modern AI models like GPT.
+Whether the symbols in the system are generated or learned is the difference between traditional symbolic AI and modern AI models like GPT.
 Because symbols are learned, it is possible to form IDR representation with symbols as the latent objects.
-Traditional symbolic AI can be seen as as an "mounter" designed to hold human hard-coded knowledge and perform reasoning by massage passing.
-Actor-model based symbolic AI system (Smalltalk, Erlang) also has the object-transfer durability because reference of an actor itself can be send as messages as well.
-With the theory, we could further confirm that the ideas kept being emphasized by Alan Kay, Joe Armstrong
+Traditional symbolic AI can be seen as an "mounter" designed to hold human hard-coded knowledge and perform reasoning by message passing.
+Actor-model based symbolic AI system (Smalltalk, Erlang) also has the object-transfer durability because reference of an actor itself can be sent as messages as well.
+With the theory, we could further confirm that the ideas kept being emphasized by Alan Kay and Joe Armstrong
 - message passing is the most universal semantic to model the physical world
 - objects are the units of intelligence
-- time must be a first-class citizen to be studied in a first principle theory of intelligence
+- time must be a first-class citizen to be studied in a first-principles theory of intelligence
 
 Also we can conclude that a GPT is essentially a massive, probabilistic actor system.
 So here we find GPT to be such an exceptional yet inclusive rare being, is all at once:
 - a commitment semantic system, aka, database/distributed system
 - a probabilistic sampling system, aka, random number generator
-- a actor system, aka, message passing system
+- an actor system, aka, message passing system
 - a symbolic reasoning system
 
-GPT is so special that it defies all odds yet doesn't contract any.
-And GPT is so simple with both minimum design in training and inference.
+GPT is so special that it defies all odds yet doesn't contradict any.
+And GPT is so simple with minimal design in both training and inference.
 
 ## hypothesis and cross-discipline observations derived from the theory
 Please note that the role of the theory in other disciplines is still very preliminary and speculative.
-We would advise you to use it as a guideline to prune and examine your research goal (separate of the concerns)
-rather than using it to predict or explain until more concrete evidences and validations are found.
+We would advise you to use it as a guideline to prune and examine your research goal (separation of concerns)
+rather than using it to predict or explain until more concrete evidence and validations are found.
 The core takeaway you can derive from the theory is the separation of intelligence into two orthogonal dimensions:
 - IDR representation: the minimal committable semantic unit's representation and how it is being stored
 - message passing mechanism: how the minimal committable semantic units communicate and coordinate with each other
-With this separation in mind, we could confidently explore various hypothesis and observations in a much focus and precise manner.
+With this separation in mind, we could confidently explore various hypotheses and observations in a more focused and precise manner.
 For instance, one researcher could presumably focus on studying to locate IDR representation in human brain rather than being distracted by the complexity of neural linkages.
 If this decomposition is valid, we could expect significant progress in multiple disciplines by applying the theory as a guiding principle and further validate the theory itself.
 And that is the key contribution of the theory to non-CS disciplines.
 
-### origin of animal brain
-The theory support the hypothesis animals with a brain could evolve from a fusion of two or multiple primitive lives.
+### Origin of animal brain
+The theory supports the hypothesis animals with a brain could evolve from a fusion of two or multiple primitive lives.
 With one life providing the IDR representation and the other life providing the message passing mechanism, the fused life form could gain significant advantages in adapting to complex environments, leading to the evolution of more sophisticated brains.
-From probability perspective much easier for natural selection to evolve one single mechanism, either IDR representation or message passing, but not both at the same time due to the complexity of co-evolution. Further study might facilitate this timothies of how animal brain evolved, by creating quantitative methods to measure to the complexity of DNA as an IDR to represent IDR and message passing mechanism separately or jointly.
+From a probability perspective, it is much easier for natural selection to evolve one single mechanism, either IDR representation or message passing, but not both at the same time due to the complexity of co-evolution. Further study might facilitate this hypothesis of how animal brain evolved, by creating quantitative methods to measure the complexity of DNA as an IDR to represent IDR and message passing mechanism separately or jointly.
 
 ### There is no back-propagation in human brain
 The theory suggests that the human brain or any being definitely does not need back-propagation as a learning mechanism.
@@ -357,7 +357,7 @@ As long as the linkages maintain a set of IDRs.
 
 ### Neural linkage's robustness
 
-One long standing question in neuroscience is how the brain maintains stable memory and intelligent behavior over sparse neural linkages (synapses) over long periods of time, despite the fact that individual synapses are constantly being formed and pruned. The message passing part of the theory provides a solid explanation for this phenomenon. Because the neural linkage purely serves as a communication channel for passing latent messages, the exact structure and strength of individual synapses are not critical for maintaining the overall functionality of the brain. As long as there are enough synapses to facilitate the necessary message passing, the brain can continue to function effectively, even if individual synapses are lost or weakened over time.
+One long-standing question in neuroscience is how the brain maintains stable memory and intelligent behavior over sparse neural linkages (synapses) over long periods of time, despite the fact that individual synapses are constantly being formed and pruned. The message passing part of the theory provides a solid explanation for this phenomenon. Because the neural linkage purely serves as a communication channel for passing latent messages, the exact structure and strength of individual synapses are not critical for maintaining the overall functionality of the brain. As long as there are enough synapses to facilitate the necessary message passing, the brain can continue to function effectively, even if individual synapses are lost or weakened over time.
 
 ### Human brain's IDR
 If you are a neuroscientist, you may find it interesting to think about what the IDR representation in human brain could be. And please feel free to share your thoughts and findings with us!
@@ -369,30 +369,30 @@ With the theory, we could understand amnesia as a progressive degradation of the
 Under the theory, sleep could be understood as a process equivalent to a GPT conducting offline training to update its IDR representation.
 And dreaming could be seen as an occasional inference process with a transient state of the message passing pathways being reconfigured.
 
-### DNA is evolutionary's IDR
+### DNA is evolution's IDR
 Like KVCache, DNA strictly complies with the properties of IDR representation defined in the theory.
 
-### Two level of IDR
+### Two levels of IDR
 With the theory, we could understand animal intelligence at two levels by recognizing two levels of IDR representation:
 - DNA
 - Brain
 
 We could also further create new categories classifying lives by having how many levels of intelligence they have and to confirm if plants only have one.
 
-### Nature selection and mutation
-With this theory, we could well understand the nature selection and mutation process in evolution at both a very atomic and macro level.
+### Natural selection and mutation
+With this theory, we could well understand the natural selection and mutation process in evolution at both a very atomic and macro level.
 Mutation should not just be emergent useful behavior for the life form, but also should be able to maintain or improve the IDR representation and message passing mechanism of the life form.
 
 ### Difference between stimulant and psychedelic drugs
-With this theory, we could understand how stimulant and psychedelic drugs affect human brain differently by studying how do they effect IDR representation and message passing mechanisms.
+With this theory, we could understand how stimulant and psychedelic drugs affect human brain differently by studying how they affect IDR representation and message passing mechanisms.
 
 ---
 
 ## Taking a step back
-We the listing parallel of phenomenons and more potential applications on-going research might discover of the theory, we can make a strong call back to the theory
+With the parallel listing of phenomena and more potential applications that ongoing research might discover from the theory, we can make a strong callback to the theory:
 that the semantics of intelligence and learning.
 - intelligence: IDR, strict, reliable, consistent
-- learning: general, flexible, adaptable, evolving. human brain, GPT and nature selection each uses dramatically different mechanisms to achieve this.
+- learning: general, flexible, adaptable, evolving. human brain, GPT and natural selection each uses dramatically different mechanisms to achieve this.
 
 ---
 
@@ -400,8 +400,8 @@ that the semantics of intelligence and learning.
 This repository contains the code and resources for the research project
 
 ## Why project(repo) not paper?
-The unique view of the theory being developed here follows and uses the concepts and wording wildly used in programming languages, distributed systems, and databases, which makes the theory more accessible to researchers from these fields, and also opens up more engineering-focused practitioners to understand the concepts.
-Also we don't want to write a paper for the sake of writing a paper, that forcing the core subject of this theory, **semantics**, into the rigid format of one specific mathematical framework or formal system.
+The unique view of the theory being developed here follows and uses the concepts and wording widely used in programming languages, distributed systems, and databases, which makes the theory more accessible to researchers from these fields, and also opens up more engineering-focused practitioners to understand the concepts.
+Also we don't want to write a paper for the sake of writing a paper, which would force the core subject of this theory, **semantics**, into the rigid format of one specific mathematical framework or formal system.
 So we decided to use a tone between system design documents and semi-philosophical essays to present the ideas and concepts of the theory.
 
 We would like everyone to be a part of the open research process, and we believe that sharing the ideas in an informal manner first will help us gather feedback and improve the theory before formalizing it into academic papers.
@@ -411,7 +411,7 @@ Once the theory is more established and widely accepted, we plan to write formal
 
 ## Repository Structure
 - `models/`: Implementations of various experimental AI models designed by applying the theory.
-  - [torus-10](models/torus-10/README.md) exploits torus topology of pixels and  using database as KVCache to build GPT model for video generation.
+  - [torus-10](models/torus-10/README.md) exploits torus topology of pixels and uses a database as KVCache to build GPT model for video generation.
 - `research-log/`: A collection of research notes, experiments, and findings related to the project.
 - `blogs/`: Informal blog posts discussing various aspects of commitment semantics and latent message passing.
 
